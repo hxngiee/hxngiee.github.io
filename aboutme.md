@@ -1,16 +1,35 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: KIHONG KIM
+subtitle: Machine Learning / Creative Coding
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I'm currently studying at **Gwangju Institute of Science and Technology**, where I'm exploring **Generative Models** to re-create the visual world.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I enjoy creating meaningful projects, which help humans be creative with technology.
 
-What else do you need?
+In the future, I want to work on projects, such as **media art**, **interactive installations**.
 
-### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### 🙋‍♂️ Education  
+- M.S. in **Gwangju Institute of Science and Technology**, Gwangju, Korea (2020 ~ Present)
+  - Cognition & Intelligence Lab
+- B.S. in **Sejong University**, Seoul, Korea (2014 ~ 2020)
+  - Major in **Computer Engineering**
+  - Major in **Entertainment Software**
+
+
+### ✍ Research Interests  
+- Machine Learning
+  - Generative Model
+  - Neural Style Transfer
+
+- Creative Coding
+  - Generative Art
+
+### 📄 Skills
+- Strong : `Pytorch`, `Python`
+- Knowledgeable : `C`, `C++`
+
+### 🔧 Tools
+- openFrameworks
