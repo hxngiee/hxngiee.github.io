@@ -1,6 +1,6 @@
 ---
 layout: page
-title: KIHONG KIM
+title: Kihong Kim
 subtitle: Machine Learning / Creative Coding
 ---
 
