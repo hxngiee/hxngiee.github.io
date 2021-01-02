@@ -20,7 +20,7 @@ navbar-links:
 #  POST:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
-  TAG: "https://deanattali.com"
+  TAG: "tags/"
 
 # --- Logo --- #
 
