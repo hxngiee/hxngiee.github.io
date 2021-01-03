@@ -2,4 +2,4 @@ User-agent: Googlebot
 User-agent: NaverBot
 Allow: /
 
-Sitemap: http://hxngiee.github.io/sitemap.xml
+Sitemap: https://hxngiee.github.io/sitemap.xml
