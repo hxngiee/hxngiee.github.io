@@ -1,5 +1,5 @@
-User-agent: Googlebot
-User-agent: NaverBot
+User-agent: *
+
 Allow: /
 
 Sitemap: http://hxngiee.github.io/sitemap.xml
