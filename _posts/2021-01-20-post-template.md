@@ -12,8 +12,6 @@ comments: true
 # Beautiful Jekyll
 > *Copyright 2016 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*  
 
-Beautiful Jekyll **볼드체** is a ready-to-use template
-
 ## Table of contents
 - [Image Align](#image-align)
 - [Text](#text)
@@ -24,7 +22,6 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 > 제목 링크시 띄어쓰기는 `-`로 스펠링은 소문자로만 해야 먹음 
 
 ## Image Align
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
 
@@ -34,7 +31,9 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 <em>An <a href="https://github.com/ouzor/eyediagram">"Eye Diagram"</a> 주석 </em>
 </center>
 
-## Text
+## Text 
+Beautiful Jekyll **볼드체** is a ready-to-use template 
+
 1. Install [VirtualBox](http://virtualbox.org) and [@jamesonzimmer](https://github.com/jamesonzimmer).
 2. Clone your fork `git`
 
