@@ -31,6 +31,7 @@ return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 
 ## Personal Website
 - You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. 
+
 |제목|내용|설명|
 |:---|---:|:---:|
 |왼쪽정렬|오른쪽정렬|중앙정렬|
