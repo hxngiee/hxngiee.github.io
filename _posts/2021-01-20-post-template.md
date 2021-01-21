@@ -9,7 +9,8 @@ comments: true
 
 ### Table of contents
 - [Prerequisites](#prerequisites)
-- [Personal](#Personal) 
+- [Personal-Website](#Personal-Website)
+
 > `##` 두개붙인 것들만 Table로 잡을 수 있음, personal websites같은 띄어쓰기는 안먹음?
 
 #### 이미지 가운데 정렬
@@ -28,8 +29,8 @@ return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 ## Prerequisites
 - You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. 
 
-## Personal
- 
+## Personal Website
+- You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. 
 |제목|내용|설명|
 |:---|---:|:---:|
 |왼쪽정렬|오른쪽정렬|중앙정렬|
@@ -39,16 +40,10 @@ return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 ### Very advanced: Local development
 Beautiful Jekyll **볼드체** is a ready-to-use template
 
-1. Install [VirtualBox](http://virtualbox.org) and [Vagrant](https://www.vagrantup.com)
+1. Install [VirtualBox](http://virtualbox.org) and [@jamesonzimmer](https://github.com/jamesonzimmer).
 2. Clone your fork `git`
 
-### Credits
-This template was not made entirely from scratch. I would like to give special thanks to:
 - [Barry Clark](https://github.com/barryclark) and his project [Jekyll Now](https://github.com/barryclark/jekyll-now)
-
-### Contributions
-Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). Special thanks to the following people with non-trivial contributions (in chronological order): [@hristoyankov](https://github.com/hristoyankov), [@jamesonzimmer](https://github.com/jamesonzimmer).
-
 
 ### Reference
 [Beautiful-jekyll 전반적인 기능](https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/)
