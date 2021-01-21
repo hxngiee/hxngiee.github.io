@@ -35,8 +35,6 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 
 - You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute.
 
-### Very advanced
-
 ## Personal Website
 - You need to have a `GitHub account`. 
 
@@ -50,8 +48,8 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 
 </center>
 
+### Very advanced
+
 ### Reference  
 **[1] Beautiful-jekyll 전반적인 기능:** https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/  
 **[2] Table 가져오는거:** https://github.com/seharanul17/davian_gan_study_2020 
-
-
