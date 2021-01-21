@@ -42,6 +42,7 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
 | Third row     | Cell that spans across two columns  ||  
+
 <center>
 <em>An <a href="https://github.com/ouzor/eyediagram">"Eye Diagram"</a> 주석 </em>
 </center>
