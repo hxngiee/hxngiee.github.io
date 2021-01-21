@@ -6,6 +6,7 @@ comments: true
 ---
 # Beautiful Jekyll
 > *Copyright 2016 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
+Beautiful Jekyll **볼드체** is a ready-to-use template
 
 ### Table of contents
 - [Prerequisites](#prerequisites)
@@ -28,8 +29,6 @@ return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 ```
 
 ## Prerequisites
-Beautiful Jekyll **볼드체** is a ready-to-use template
-
 1. Install [VirtualBox](http://virtualbox.org) and [@jamesonzimmer](https://github.com/jamesonzimmer).
 2. Clone your fork `git`
 
