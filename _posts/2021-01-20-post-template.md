@@ -15,14 +15,14 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 
 > 제목 링크시 띄어쓰기는 `-`로 스펠링은 소문자로만 해야 먹음
 
-#### 이미지 가운데 정렬
+### 이미지 가운데 정렬
 <center>
 <img src="/assets/img/avatar-icon.png" alt="Component model visualisation">
 <br>
 <em>An <a href="https://github.com/ouzor/eyediagram">"Eye Diagram"</a> 주석 </em>
 </center>
 
-#### Code Block
+### Code Block
 ```python
 # simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
 return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
