@@ -37,24 +37,15 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 
 ## Personal Website
   
-|제목|내용|설명|
-|:---|---:|:---:|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-
-|포멧         |멀티바디 대응  |재질 색상 정보|데이타 간결성|블랜더 임포트|
-|-------------|---------------|--------------|-------------|-------------|
-|STL          |X              |X             |Good         |O            |
-
-|포멧         |멀티바디 대응  |재질 색상 정보|데이타 간결성|블랜더 임포트|
-|--------------------------|----------------------------|---------------------------|--------------------------|--------------------------|
-|STL          |X              |X             |Good         |O            |
-
+| First Header  | Second Header | Third Header         |
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
+| Third row     | Cell that spans across two columns  ||
+[Table caption, works as a reference][section-mmd-tables-table1] 
 
 ### Very advanced
 
 ### Reference  
 **[1] Beautiful-jekyll 전반적인 기능:** https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/  
-**[2] 마크다운 문법:** https://velog.io/@wonhs717/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4Markdown-%EB%AC%B8%EB%B2%95-ytk5zemk0x  
-**[3] Table 가져오는거:** https://github.com/seharanul17/davian_gan_study_2020 
+**[2] 마크다운(MARKDOWN) 문법 사용법:** https://eungbean.github.io/2018/06/11/How-to-use-markdown/
