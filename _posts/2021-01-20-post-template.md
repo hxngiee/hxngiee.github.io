@@ -13,11 +13,12 @@ comments: true
 ### Table of contents
 - [Prerequisites](#prerequisites)
 - [Build your website in 3 steps](#personal websites)
+> ## 두개붙인 것들만 Table로 잡을 수 있음
 
 ## Prerequisites
 - You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute.
 
-#### Personal websites 
+## Personal websites 
  
 |제목|내용|설명|
 |:---|---:|:---:|
@@ -26,11 +27,10 @@ comments: true
 |왼쪽정렬|오른쪽정렬|중앙정렬|
 
 ### Very advanced: Local development
-Beautiful Jekyll is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Follow these simple steps to do that with Vagrant:
+Beautiful Jekyll 
 
 1. Install [VirtualBox](http://virtualbox.org) and [Vagrant](https://www.vagrantup.com)
-2. Clone your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
-3. Inside your repository folder, run `vagrant up`
+2. Clone your fork `git`
 
 Disclaimer: I personally am NOT using local development so I don't know much about running Jekyll locally. If you follow this route, please don't ask me questions because unfortunately I honestly won't be able to help!
 
@@ -39,7 +39,7 @@ This template was not made entirely from scratch. I would like to give special t
 - [Barry Clark](https://github.com/barryclark) and his project [Jekyll Now](https://github.com/barryclark/jekyll-now)
 
 ### Contributions
-Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). Special thanks to the following people with non-trivial contributions (in chronological order): [@hristoyankov](https://github.com/hristoyankov), [@jamesonzimmer](https://github.com/jamesonzimmer), [@XNerv](https://github.com/XNerv), [@epwalsh](https://github.com/epwalsh), [@rtlee9](https://github.com/rtlee9).
+Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). Special thanks to the following people with non-trivial contributions (in chronological order): [@hristoyankov](https://github.com/hristoyankov), [@jamesonzimmer](https://github.com/jamesonzimmer).
 
 #### 이미지 가운데 정렬
 <center>
