@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beautiful-jekyll post template
+title: Beautiful-jekyll Post Template
 tags: [homepage]
 comments: true
 ---
@@ -57,7 +57,3 @@ return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 
 ### Reference
 [Beautiful-jekyll 전반적인 기능](https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/) 
-
-
-
-
