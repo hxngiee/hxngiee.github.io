@@ -2,8 +2,6 @@
 layout: post
 title: Beautiful-jekyll Post Template
 subtitle: Excerpt from Soulshaping by Jeff Brown
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
