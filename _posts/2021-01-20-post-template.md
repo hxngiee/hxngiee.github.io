@@ -11,6 +11,7 @@ comments: true
 
 # Beautiful Jekyll
 > *Copyright 2016 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*  
+
 Beautiful Jekyll **볼드체** is a ready-to-use template
 
 ## Table of contents
