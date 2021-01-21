@@ -32,8 +32,6 @@ Beautiful Jekyll
 1. Install [VirtualBox](http://virtualbox.org) and [Vagrant](https://www.vagrantup.com)
 2. Clone your fork `git`
 
-Disclaimer: I personally am NOT using local development so I don't know much about running Jekyll locally. If you follow this route, please don't ask me questions because unfortunately I honestly won't be able to help!
-
 ### Credits
 This template was not made entirely from scratch. I would like to give special thanks to:
 - [Barry Clark](https://github.com/barryclark) and his project [Jekyll Now](https://github.com/barryclark/jekyll-now)
@@ -57,4 +55,5 @@ return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 
 
 ### Reference
-[Beautiful-jekyll 전반적인 기능](https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/) 
+[Beautiful-jekyll 전반적인 기능](https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/)
+Table 가져오는거랑 Code block 깔끔한거 알아보기
