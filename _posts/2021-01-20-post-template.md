@@ -6,7 +6,6 @@ comments: true
 ---
 # Beautiful Jekyll
 > *Copyright 2016 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*  
-
 Beautiful Jekyll **볼드체** is a ready-to-use template
 
 ### Table of contents
@@ -53,3 +52,6 @@ return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 ### Reference  
 **[1] Beautiful-jekyll 전반적인 기능:** https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/  
 **[2] 마크다운(MARKDOWN) 문법 사용법:** https://eungbean.github.io/2018/06/11/How-to-use-markdown/
+**[3] 홈페이지 더 빠르고 쉽게 편집하기:** http://prose.io/
+
+
