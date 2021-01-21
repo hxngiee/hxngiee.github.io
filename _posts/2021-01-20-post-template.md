@@ -18,7 +18,7 @@ comments: true
 ## Prerequisites
 - You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. 
 
-### Personal websites 
+## Personal websites 
  
 |제목|내용|설명|
 |:---|---:|:---:|
