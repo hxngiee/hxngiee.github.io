@@ -16,7 +16,7 @@ comments: true
 > ## 두개붙인 것들만 Table로 잡을 수 있음
 
 ## Prerequisites
-- You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute.
+- You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. 
 
 ## Personal websites 
  
