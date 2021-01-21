@@ -12,7 +12,7 @@ comments: true
 
 ### Table of contents
 - [Prerequisites](#prerequisites)
-- [Build your website in 3 steps](#Personal websites)
+- [Build your website in 3 steps](#personal websites)
 
 ## Prerequisites
 - You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute.
