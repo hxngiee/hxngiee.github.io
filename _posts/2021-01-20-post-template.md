@@ -9,7 +9,7 @@ comments: true
 
 ### Table of contents
 - [Prerequisites](#prerequisites)
-- [Build your website in 3 steps](#Personal) 
+- [Personal](#Personal) 
 > `##` 두개붙인 것들만 Table로 잡을 수 있음, personal websites같은 띄어쓰기는 안먹음?
 
 #### 이미지 가운데 정렬
