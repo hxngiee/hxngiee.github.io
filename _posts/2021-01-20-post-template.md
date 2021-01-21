@@ -9,7 +9,7 @@ comments: true
 
 ### Table of contents
 - [Prerequisites](#prerequisites)
-- [Personal-Website](#Personal-Website)
+- [Personal-Website](#personal-website)
 
 > `##` 두개붙인 것들만 Table로 잡을 수 있음, personal websites같은 띄어쓰기는 안먹음?
 
@@ -48,4 +48,6 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 
 ### Reference
 [Beautiful-jekyll 전반적인 기능](https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/)
-Table 가져오는거랑
+**[2] Table 가져오는거:** https://github.com/seharanul17/davian_gan_study_2020
+
+
