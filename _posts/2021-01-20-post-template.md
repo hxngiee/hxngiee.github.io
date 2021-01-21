@@ -53,10 +53,7 @@ Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/gra
 # simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
 return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 {% endhighlight python %}
-{% python %}
-# simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
-return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
-{% end python %}
+
 
 
 ### Reference
