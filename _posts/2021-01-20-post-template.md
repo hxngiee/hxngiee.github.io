@@ -12,13 +12,13 @@ comments: true
 
 ### Table of contents
 - [Prerequisites](#prerequisites)
-- [Build your website in 3 steps](#Personal websites)
-> `##` 두개붙인 것들만 Table로 잡을 수 있음, personal websites같은 띄어쓰기는 안먹음
+- [Build your website in 3 steps](#Personal-websites)
+> `##` 두개붙인 것들만 Table로 잡을 수 있음, personal websites같은 띄어쓰기는 안먹음?
 
 ## Prerequisites
 - You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. 
 
-## Personal websites 
+### Personal websites 
  
 |제목|내용|설명|
 |:---|---:|:---:|
@@ -52,8 +52,17 @@ Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/gra
 return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 {% endhighlight python %}
 
+```
+# simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
+return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
+```
+
+```python
+# simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
+return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
+```
 
 
 ### Reference
 [Beautiful-jekyll 전반적인 기능](https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/)
-Table 가져오는거랑 Code block 깔끔한거 알아보기
+Table 가져오는거랑
