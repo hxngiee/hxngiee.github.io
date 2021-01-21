@@ -20,7 +20,8 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 - [Table](#table)
   - [Block Boxing](#block-boxing)
 
-> 제목 링크시 띄어쓰기는 `-`로 스펠링은 소문자로만 해야 먹음
+> 제목 링크시 띄어쓰기는 `-`로 스펠링은 소문자로만 해야 먹음 
+
 ## Image Align
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
