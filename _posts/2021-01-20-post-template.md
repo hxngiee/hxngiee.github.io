@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Pytorch 기본 문법
-subtitle: 기본 문법, 자주사용하는 함수, 코드 모음
-tags: [pytorch]
+title: Beautiful-jekyll post template
+tags: [homepage]
 comments: true
 ---
 
@@ -25,12 +24,6 @@ comments: true
 | [ouzor.github.io](http://ouzor.github.io) | Juuso Parkkinen | Data scientist |
 | [derekogle.com](http://derekogle.com/) | Derek Ogle | Professor of Mathematical Sciences and Natural Resources |
 | [trappmartin.github.io](http://trappmartin.github.io) | Martin Trapp | Machine learning researcher |
-| [melyanna.github.io](http://melyanna.github.io/) | Melyanna | Shows off her nice art |
-| [chauff.github.io](http://chauff.github.io/) | Claudia Hauff | Professor at Delft University of Technology |
-| [kootenpv.github.io](http://kootenpv.github.io/) | Pascal van Kooten | Data analytics |
-| [sjackman.ca](http://sjackman.ca) | Shaun Jackman | PhD candidate in bioinformatics |
-| [epwalsh.fyi](https://epwalsh.fyi) | Evan Pete Walsh | PhD candidate (Statistics and Mathematics) at Iowa State University |
-| [otomatikmuhendis.com](http://otomatikmuhendis.com/) | Olcay Bayram | Software engineer |
 
 ### Very advanced: Local development
 Beautiful Jekyll is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Follow these simple steps to do that with Vagrant:
@@ -49,12 +42,22 @@ This template was not made entirely from scratch. I would like to give special t
 Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). Special thanks to the following people with non-trivial contributions (in chronological order): [@hristoyankov](https://github.com/hristoyankov), [@jamesonzimmer](https://github.com/jamesonzimmer), [@XNerv](https://github.com/XNerv), [@epwalsh](https://github.com/epwalsh), [@rtlee9](https://github.com/rtlee9).
 If you do fork or clone this project to use as a template for your site, I would appreciate if you keep the link in the footer to this project.  I've noticed that several people who forked this repo removed the attribution and I would prefer to get the recognition if you do use this :)
 
+#### 이미지 가운데 정렬
+<center>
+<img src="/assets/img/avatar-icon.png" alt="Component model visualisation">
+
+<br>
+<em>An <a href="https://github.com/ouzor/eyediagram">"Eye Diagram"</a> 주석 </em>
+</center>
+
+#### Code Block
+{% highlight python %}
+# simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
+return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
+{% endhighlight python %}
 
 ### Reference
-https://w4ngatang.github.io/template-instructions/#featured-users-success-stories
-[코드 블럭](https://vks.ai/2016-09-07-ai-challenge-in-78-lines)
-[전반적인 디자인](https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/)
-[이미지 가운데 정렬](http://ouzor.github.io/blog/2017/08/14/predictive-toxicogenomics-paper.html)
+[Beautiful-jekyll 전반적인 기능](https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/) 
 
 
 
