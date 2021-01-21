@@ -43,6 +43,13 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 |왼쪽정렬|오른쪽정렬|중앙정렬|
 |왼쪽정렬|오른쪽정렬|중앙정렬|
 
+|포멧         |멀티바디 대응  |재질 색상 정보|데이타 간결성|블랜더 임포트|
+|-------------|---------------|--------------|-------------|-------------|
+|STL          |X              |X             |Good         |O            |
+|WRL          |O              |O             |Bad          |O            |
+|SLP          |O              |O             |Good         |X            |
+|Wavefront OBJ|O              |O             |Good         |O            |
+
 ### Very advanced
 
 ### Reference  
