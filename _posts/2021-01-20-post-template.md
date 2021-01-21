@@ -50,11 +50,11 @@ return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 
 ## Table
   
-| First Header  | Second Header | Third Header         |{: .mx-auto.d-block :}
-| :------------ | :-----------: | -------------------: |{: .mx-auto.d-block :}
-| First row     | Data          | Very long data entry |{: .mx-auto.d-block :}
-| Second row    | **Cell**      | *Cell*               |{: .mx-auto.d-block :}
-| Third row     | Cell that spans across two columns  |123|{: .mx-auto.d-block :}
+| First Header  | Second Header | Third Header         |
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
+| Third row     | Cell that spans across two columns  |123|
 
 <center>
 <em>An <a href="https://github.com/ouzor/eyediagram">"Eye Diagram"</a> 주석 </em>
