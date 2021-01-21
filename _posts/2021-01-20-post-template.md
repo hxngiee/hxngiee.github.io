@@ -8,22 +8,21 @@ comments: true
 # Beautiful Jekyll
 > *Copyright 2016 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
 
-**Beautiful Jekyll** is a ready-to-use template to help you create an awesome website quickly. Perfect for personal blogs or simple project websites.
+**Beautiful Jekyll** is a ready-to-use template
 
 ### Table of contents
 - [Prerequisites](#prerequisites)
-- [Build your website in 3 steps](#build-your-website-in-3-steps)
+- [Build your website in 3 steps](#Personal websites)
 
 ## Prerequisites
-- You need to have a GitHub account. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. This is where your website will live - if you sign up with username `johnsmith` then your website will be `http://johnsmith.github.io`.  
+- You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute.
 
 #### Personal websites 
-| Website | Who | What |
-| :------ |:--- | :--- |
-| [deanattali.com](http://deanattali.com) | Dean Attali | Creator of Beautiful Jekyll |
-| [ouzor.github.io](http://ouzor.github.io) | Juuso Parkkinen | Data scientist |
-| [derekogle.com](http://derekogle.com/) | Derek Ogle | Professor of Mathematical Sciences and Natural Resources |
-| [trappmartin.github.io](http://trappmartin.github.io) | Martin Trapp | Machine learning researcher |
+|제목|내용|설명|
+|:---|---:|:---:|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
 
 ### Very advanced: Local development
 Beautiful Jekyll is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Follow these simple steps to do that with Vagrant:
