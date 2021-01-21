@@ -36,17 +36,12 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 - You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute.
 
 ## Personal Website
-- You need to have a `GitHub account`. 
-
-<center>
   
 |제목|내용|설명|
 |:---|---:|:---:|
 |왼쪽정렬|오른쪽정렬|중앙정렬|
 |왼쪽정렬|오른쪽정렬|중앙정렬|
 |왼쪽정렬|오른쪽정렬|중앙정렬|
-
-</center>
 
 ### Very advanced
 
