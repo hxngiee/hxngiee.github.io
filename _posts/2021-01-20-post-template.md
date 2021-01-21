@@ -25,6 +25,12 @@ comments: true
 # simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
 return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 ```
+```{.python}
+# simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
+return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
+```
+
+
 
 ## Prerequisites
 Beautiful Jekyll **볼드체** is a ready-to-use template
@@ -48,7 +54,7 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 |왼쪽정렬|오른쪽정렬|중앙정렬|
 
 ### Reference
-**[1] Beautiful-jekyll 전반적인 기능:** https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/ 
+**[1] Beautiful-jekyll 전반적인 기능:** https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/  
 **[2] Table 가져오는거:** https://github.com/seharanul17/davian_gan_study_2020 
 
 
