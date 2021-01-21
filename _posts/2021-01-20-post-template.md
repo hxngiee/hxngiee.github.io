@@ -9,7 +9,7 @@ comments: true
 
 ### Table of contents
 - [Prerequisites](#prerequisites)
-- [Build your website in 3 steps](#Personal)
+- [Build your website in 3 steps](#Personal) 
 > `##` 두개붙인 것들만 Table로 잡을 수 있음, personal websites같은 띄어쓰기는 안먹음?
 
 #### 이미지 가운데 정렬
@@ -28,7 +28,7 @@ return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 ## Prerequisites
 - You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. 
 
-## Personal 
+## Personal
  
 |제목|내용|설명|
 |:---|---:|:---:|
