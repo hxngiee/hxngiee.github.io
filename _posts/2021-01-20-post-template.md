@@ -11,7 +11,7 @@ comments: true
 - [Prerequisites](#prerequisites)
 - [Personal-Website](#personal-website)
 
-> `##` 두개붙인 것들만 Table로 잡을 수 있음, personal websites같은 띄어쓰기는 안먹음?
+> 제목 링크시 띄어쓰기는 `-`로 스펠링은 소문자로만 해야 먹음
 
 #### 이미지 가운데 정렬
 <center>
@@ -27,18 +27,6 @@ return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
 ```
 
 ## Prerequisites
-- You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. 
-
-## Personal Website
-- You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. 
-
-|제목|내용|설명|
-|:---|---:|:---:|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-|왼쪽정렬|오른쪽정렬|중앙정렬|
-
-### Very advanced: Local development
 Beautiful Jekyll **볼드체** is a ready-to-use template
 
 1. Install [VirtualBox](http://virtualbox.org) and [@jamesonzimmer](https://github.com/jamesonzimmer).
@@ -46,8 +34,21 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 
 - [Barry Clark](https://github.com/barryclark) and his project [Jekyll Now](https://github.com/barryclark/jekyll-now)
 
+- You need to have a `GitHub account`. If you don't have one, [sign up here](https://github.com/join) - it takes one minute.
+
+### Very advanced: Local development
+
+## Personal Website
+- You need to have a `GitHub account`. 
+
+|제목|내용|설명|
+|:---|---:|:---:|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+
 ### Reference
-[Beautiful-jekyll 전반적인 기능](https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/)
+**[1] Beautiful-jekyll 전반적인 기능:** https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/
 **[2] Table 가져오는거:** https://github.com/seharanul17/davian_gan_study_2020
 
 
