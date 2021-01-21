@@ -47,4 +47,5 @@ Beautiful Jekyll **볼드체** is a ready-to-use template
 
 ### Reference  
 **[1] Beautiful-jekyll 전반적인 기능:** https://dymaxionkim.github.io/beautiful-jekyll/2017-01-10-make-blog/  
-**[2] Table 가져오는거:** https://github.com/seharanul17/davian_gan_study_2020 
+**[2] 마크다운 문법:** https://velog.io/@wonhs717/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4Markdown-%EB%AC%B8%EB%B2%95-ytk5zemk0x  
+**[3] Table 가져오는거:** https://github.com/seharanul17/davian_gan_study_2020 
