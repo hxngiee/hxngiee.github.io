@@ -4,11 +4,27 @@ title: Beautiful-jekyll Post Template
 tags: [homepage]
 comments: true
 ---
-
 # Beautiful Jekyll
 > *Copyright 2016 [Dean Attali](http://deanattali.com). Licensed under the MIT license.*
 
-**Beautiful Jekyll** is a ready-to-use template
+**볼드체** is a ready-to-use template
+
+#### 이미지 가운데 정렬
+<center>
+<img src="/assets/img/avatar-icon.png" alt="Component model visualisation">
+<br>
+<em>An <a href="https://github.com/ouzor/eyediagram">"Eye Diagram"</a> 주석 </em>
+</center>
+
+#### Code Block
+```python
+# simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
+return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
+```
+
+
+
+
 
 ### Table of contents
 - [Prerequisites](#prerequisites)
@@ -38,29 +54,6 @@ This template was not made entirely from scratch. I would like to give special t
 
 ### Contributions
 Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). Special thanks to the following people with non-trivial contributions (in chronological order): [@hristoyankov](https://github.com/hristoyankov), [@jamesonzimmer](https://github.com/jamesonzimmer).
-
-#### 이미지 가운데 정렬
-<center>
-<img src="/assets/img/avatar-icon.png" alt="Component model visualisation">
-<br>
-<em>An <a href="https://github.com/ouzor/eyediagram">"Eye Diagram"</a> 주석 </em>
-</center>
-
-#### Code Block
-{% highlight python %}
-# simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
-return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
-{% endhighlight python %}
-
-```
-# simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
-return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
-```
-
-```python
-# simple weighting, importance: num_my_tiles > num_enemy_tiles > enemies_dist
-return sum([num_my_tiles * 10000000, num_enemy_tiles * -100000, enemies_dist])
-```
 
 
 ### Reference
