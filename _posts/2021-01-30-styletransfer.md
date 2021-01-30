@@ -1,12 +1,10 @@
 ---
 layout: post
-title: StyleTransfer와 Reference Image간의 관계
+title: StyleTransfer와 실험기
 subtitle: Styling 효과를 결정짓는 Reference Image Size와 Network의 Receptive Fields
 tags: [실험일지]
 comments: true
 ---
-
-# StyleTransfer 실험기
 
 ## Table of contents
 - [문제인식](#문제인식)
