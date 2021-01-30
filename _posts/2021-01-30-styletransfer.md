@@ -27,9 +27,24 @@ comments: true
 ## Reference Image와 StyleTransfer간의 관계  
 > Reference Image의 특성을 어떻게 적절히 반영할 수 있을까?  
 
+<center>
+<img src="/assets/img/styletransfer_4.jpg" alt="Component model visualisation">
+<br>
+<em> Low Level의 Layer일수록 참조 이미지의 작은 패턴을, High Level의 Layer일수록 전체적인 느낌을 담아낸다 </em>
+</center>  
+
 하나의 네트워크가 다양한 참조 이미지의 비주얼 특성을 반영하지 못한 이유는 다음과 같다. 참조 이미지의 경우 이미지에 따라 가지는 style 복잡도가 다른데, 네트워크는 학습시 고정된 content/style weight 비율로 학습되다보니 참조 이미지의 다양성을 모두 커버하지 못하는 것이다. 또한 Inference시에도 특정 Layer를 기준으로 이미지를 Reconstruction하다보니 이미지에 특성에 따라 Styling의 효과가 다르게 나타난다. 따라서 참조 이미지의 표현된 스타일의 정량값에 따라 적정 Layer를 선택하는 전략이 필요하다 
 
 ## Styling 효과를 결정짓는 Image Size와 Network의 Receptive Fields  
+
+<center>
+<img src="/assets/img/styletransfer_1.jpg" alt="Component model visualisation">
+<br>
+<img src="/assets/img/styletransfer_2.jpg" alt="Component model visualisation">
+<img src="/assets/img/styletransfer_3.jpg" alt="Component model visualisation">
+<em> Low Level의 Layer일수록 참조 이미지의 작은 패턴을, High Level의 Layer일수록 전체적인 느낌을 담아낸다 </em>
+</center>  
+
 궁금증을 가지고 원인을 파악하던 중, Reference Image의 사이즈 조절로 다른 Styling 효과를 얻었다는 ISSUE를 읽었다. 위에 보이는 것과 같이 Image의 Size를 160x160으로 작게 줄여 학습시킬 경우, 네트워크가 참조 이미지의 local한 stroke feature에 주목하고, 960x960 이미지로 학습한 경우 참조 이미지의 global한 stroke feature에 주목하여 조금 더 단순한 이미지로 변환한 것이다. 결과적으로 하나의 네트워크에서 Reference Image의 size와 네트워크의 receptive field가 어떻게 구성되었는지에 따라 Styling 효과가 다르게 나타나는 것을 알 수 있었다.
 
 ## 마치며
