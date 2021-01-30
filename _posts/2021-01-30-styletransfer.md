@@ -41,7 +41,7 @@ comments: true
 <br>
 <img src="/assets/img/styletransfer_2.jpg" alt="Component model visualisation">
 <img src="/assets/img/styletransfer_3.jpg" alt="Component model visualisation">
-<em> Low Level의 Layer일수록 참조 이미지의 작은 패턴을, High Level의 Layer일수록 전체적인 느낌을 담아낸다 </em>
+<em> Left : trained with 160x160 style image / Right : trained with 960x960 style image</em>
 </center>  
 
 궁금증을 가지고 원인을 파악하던 중, Reference Image의 사이즈 조절로 다른 Styling 효과를 얻었다는 ISSUE를 읽었다. 위에 보이는 것과 같이 Image의 Size를 160x160으로 작게 줄여 학습시킬 경우, 네트워크가 참조 이미지의 local한 stroke feature에 주목하고, 960x960 이미지로 학습한 경우 참조 이미지의 global한 stroke feature에 주목하여 조금 더 단순한 이미지로 변환한 것이다. 결과적으로 하나의 네트워크에서 Reference Image의 size와 네트워크의 receptive field가 어떻게 구성되었는지에 따라 Styling 효과가 다르게 나타나는 것을 알 수 있었다.
