@@ -27,9 +27,7 @@ comments: true
 > Reference Image의 특성을 어떻게 적절히 반영할 수 있을까?  
 
 <center>
-<img src="/assets/img/styletransfer_4.jpg" alt="Component model visualisation">
-<br>
-<em> Low Level의 Layer일수록 참조 이미지의 작은 패턴을, High Level의 Layer일수록 전체적인 느낌을 담아낸다 </em>
+<img src="/assets/img/styletransfer_5.jpg" alt="Component model visualisation">
 </center>  
 
 하나의 네트워크가 다양한 참조 이미지의 비주얼 특성을 반영하지 못한 이유는 다음과 같다. 참조 이미지의 경우 이미지에 따라 가지는 style 복잡도가 다른데, 네트워크는 학습시 고정된 content/style weight 비율로 학습되다보니 참조 이미지의 다양성을 모두 커버하지 못하는 것이다. 또한 Inference시에도 특정 Layer를 기준으로 이미지를 Reconstruction하다보니 이미지에 특성에 따라 Styling의 효과가 다르게 나타난다. 따라서 참조 이미지의 표현된 스타일의 정량값에 따라 적정 Layer를 선택하는 전략이 필요하다 
