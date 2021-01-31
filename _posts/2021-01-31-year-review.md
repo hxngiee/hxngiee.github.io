@@ -36,7 +36,7 @@ comments: true
 <em>생명과님들이 눈거인에 생명을 불어넣어주셨다. . 몸도 엄청 딴딴했다</em>
 
 <center>
-<img src="/assets/img/2021_year_review" alt="Component model visualisation">
+<img src="/assets/img/2021_year_review.jpg" alt="Component model visualisation">
 <br>
 <em>정윤이와 어쩌다 Smart Mirror</em>
 </center>
