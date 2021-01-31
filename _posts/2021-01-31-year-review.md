@@ -27,10 +27,10 @@ gpu99퍼 쓰는사진
 
 ### ☺추억
 <center>
-<p style="width:50%;height:400px;float:left;overflow:hidden;">
+<p style="width:50%;height:300px;float:left;overflow:hidden;">
 <img alt="1" src="/assets/img/2021_year_review_2.jpg"  style="height:100%;"/>
 </p>
-<p style="width:50%;height:400px;overflow:hidden;">
+<p style="width:50%;height:300px;overflow:hidden;">
 <img alt="2" src="/assets/img/2021_year_review_3.jpg"  style="height:100%;"/>
 </p>
 <em>생명과님들이 눈거인에 생명을 불어넣어주셨다. . 몸도 엄청 딴딴했다</em>
@@ -40,7 +40,6 @@ gpu99퍼 쓰는사진
 <p style="width:50%;height:200px;float:left;overflow:hidden;">
 <img alt="3" src="/assets/img/2021_year_review.jpg"  style="height:100%;"/>
 </p>
-<br>
 <em>정윤이와 어쩌다 Smart Mirror</em>
 </center>
 
