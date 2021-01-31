@@ -25,7 +25,8 @@ comments: true
 홈페이지 세팅과 Multi-GPU를 활용한 학습용 프레임워크를 구축을 했다. 후자의 경우 pytorch의 DDP(Distributed Data Parallel)를 쓰는 작업인데 난이도가 있어 많은 시간이 소요됐다(일주일동안 고통 받았다)
 <gpu99퍼 쓰는사진>
 
-### 추억
+### 추억  
+
 <p style="width:50%;height:400px;float:left;overflow:hidden;">
 <img alt="1" src="/assets/img/2021_year_review_2.jpg"  style="height:100%;"/>
 </p>
