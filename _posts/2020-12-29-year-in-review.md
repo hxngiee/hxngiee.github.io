@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adios, 2020년 내 몸을 변화시킨 해
+title: Adios 2020년, 내 몸을 변화시킨 해
 subtitle: 애증의 1년을 보내며
 # cover-img: /assets/img/path.jpg
 # thumbnail-img: /assets/img/template.png
