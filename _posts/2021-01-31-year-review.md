@@ -37,9 +37,9 @@ comments: true
 </center>
 
 <center>
-<img src="/assets/img/avatar-icon.png" alt="Component model visualisation">
+<img src="/assets/img/2021_year_review" alt="Component model visualisation">
 <br>
-<em>어쩌다 Smart Mirror</em>
+<em>정윤이와 어쩌다 Smart Mirror</em>
 </center>
 
 
