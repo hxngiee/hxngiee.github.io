@@ -9,22 +9,41 @@ tags: [일상]
 comments: true
 ---
 
-# Adios, 2021년: 내 몸을 변화시킨 해
-내 마지막 20대를 보내며 일상비일상(기약없이 길어지는 코로나)서른즈음에
-올 한 해 나는 무엇을 했나 🐮
+# Adios, 2021년: 혼란과 방황의
+나의 마지막 20대를 보내며, 올 한 해 나는 무엇을 했나 🐮
 
-## 혼란과 방황의 `1월`
+## 혼란과 방황의 1월
 
+### 😰기약없이 길어지는 코로나
+어느새 사회와 단절된지 2년째. 작년의 나와 올해의 나는 완전히 다른 일상을 보내고 있다. 어느 순간부터 혼자있는 것에 익숙해졌고 다양한 주제에 대한 관심이 줄어드며 현실적인 사람이 되어가고 있다. 
+ 
+최근 이런 저런 고민으로 잠을 제대로 못자는 경우가 많았다. 현재 하고있는 연구에 대한 확신, 내가 하고 싶은 일에 대한 고민 등 어느 하나 쉬운 것이 없어 답답했다. 
 
-## 🕊요가
-힘겨운 나날을 보내고 있다. 주로 미뤄왔던 환경세팅, 홈페이지 세팅, 프레임워크 구축 등 부가적인 작업에 시간을 많이 쏟아 공부에 집중하지 못하고 있다.
+힘겹게 쏟은 노력들이 좋은 성과로 이어지길 바랄뿐이다 
 
-## 🐓요가
-나나나나나가
+### 🛠프레임워크 구축
+홈페이지 세팅과 Multi-GPU를 활용한 학습용 프레임워크를 구축을 했다. 후자의 경우 pytorch의 DDP(Distributed Data Parallel)를 쓰는 작업인데 난이도가 있어 많은 시간이 소요됐다(일주일동안 고통 받았다)
+<gpu99퍼 쓰는사진>
+
+### 추억
+<p style="width:50%;height:400px;float:left;overflow:hidden;">
+<img alt="1" src="/assets/img/2021_year_review_2.jpg"  style="height:100%;"/>
+</p>
+<p style="width:50%;height:400px;overflow:hidden;">
+<img alt="2" src="/assets/img/2021_year_review_3.jpg"  style="height:100%;"/>
+</p>
+<em>생명과님들이 눈거인에 생명을 불어넣어주셨다. . 몸도 엄청 딴딴했다</em>
+</center>
 
 <center>
 <img src="/assets/img/avatar-icon.png" alt="Component model visualisation">
 <br>
-<em>An <a href="https://github.com/ouzor/eyediagram">"Page Link"</a> 주석 </em>
+<em>어쩌다 Smart Mirror</em>
 </center>
 
+
+
+
+
+
+  
