@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Adios, 2021년: 혼란과 방황의 
-subtitle: Year in Review
+title: 이거뭐냐
+subtitle: Beautiful-jekyll 포스팅 템플릿
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/template.png
 share-img: /assets/img/template.jpg
-tags: [일상]
+tags: [Settings]
 comments: true
 ---
 
