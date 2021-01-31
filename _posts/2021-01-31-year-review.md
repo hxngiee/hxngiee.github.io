@@ -36,6 +36,8 @@ gpu99퍼 쓰는사진
 <em>생명과님들이 눈거인에 생명을 불어넣어주셨다. . 몸도 엄청 딴딴했다</em>
 </center>
 
+<br>
+
 <center>
 <p style="width:100%;height:200px;float:left;overflow:hidden;">
 <img alt="3" src="/assets/img/2021_year_review.jpg"  style="height:100%;"/>
