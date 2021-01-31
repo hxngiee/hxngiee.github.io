@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adios, 2021년 혼란과 방황의
+title: Adios 2021년, 혼란과 방황의
 subtitle: Year in Review
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/template.png
