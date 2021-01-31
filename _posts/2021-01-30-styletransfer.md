@@ -37,8 +37,14 @@ comments: true
 <center>
 <img src="/assets/img/styletransfer_1.jpg" alt="Component model visualisation">
 <br>
+<div style="width:200px; height:150px; border:1px solid red; float: left;">
 <img src="/assets/img/styletransfer_2.jpg" alt="Component model visualisation">
+</div>
+
+<div style="width:200px; height:150px; border:1px solid green; float: right;">
 <img src="/assets/img/styletransfer_3.jpg" alt="Component model visualisation">
+</div>
+
 <em> Left : trained with 160x160 style image / Right : trained with 960x960 style image</em>
 </center>  
 
