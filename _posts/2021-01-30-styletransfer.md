@@ -37,13 +37,14 @@ comments: true
 <center>
 <img src="/assets/img/styletransfer_1.jpg" alt="Component model visualisation">
 <br>
-<div style="width:200px; height:150px; border:1px solid red; float: left;">
-<img src="/assets/img/styletransfer_2.jpg" alt="Component model visualisation">
-</div>
+  
+<p style="width:50%;height:400px;float:left;overflow:hidden;">
+<img alt="1" src="/assets/img/styletransfer_2.jpg"  style="height:100%;"/>
+</p>
 
-<div style="width:200px; height:150px; border:1px solid green; float: right;">
-<img src="/assets/img/styletransfer_3.jpg" alt="Component model visualisation">
-</div>
+<p style="width:50%;height:400px;overflow:hidden;">
+<img alt="2" src="/assets/img/styletransfer_3.jpg"  style="height:100%;"/>
+</p>
 
 <em> Left : trained with 160x160 style image / Right : trained with 960x960 style image</em>
 </center>  
