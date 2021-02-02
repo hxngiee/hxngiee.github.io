@@ -57,7 +57,7 @@ comments: true
 3. 이미지에서 스타일의 복잡도는 어떻게 정량화할 수 있을까?(Edge의 개수?,Color의 다양성?)
 4. Reference Image의 복잡도에 따라 Adaptive하게 Layer selection이나 이미지 resize를 해준다면?  
 
-아직 시간적 여유가 없어 자세히 알아보지 못하고 있다. 여바쁜 일을 마무리하고 못한 의문을 기록하며 글을 마무리한다.  
+아직 시간적 여유가 없어 자세히 알아보지 못하고 있다. 바쁜 일을 마무리하고 글을 다시 마무리해야 겠다.
 
 ### Reference
 **[1] [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf)**  
