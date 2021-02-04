@@ -3,8 +3,6 @@ layout: post
 title: Adios 2021년, 혼란과 방황의
 subtitle: Year in Review
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/2021_year_review_cow.png
-share-img: /assets/img/2021_year_review_cow.png
 tags: [일상]
 comments: true
 ---
