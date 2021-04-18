@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Kihong Kim
+title: 몰입을 즐기는 개발자, 김기홍입니다
 subtitle: Machine Learning / Creative Coding
 ---
 
-I'm currently studying at **Gwangju Institute of Science and Technology**, where I'm exploring **Generative Models** to re-create the visual world.
+안녕하세요! 2년차 AI Engineer 김기홍입니다. 성장배경. 추구하는 가치. 생활 습관. 관심사.I'm currently studying at **Gwangju Institute of Science and Technology**, where I'm exploring **Generative Models** to re-create the visual world.
 
 I enjoy creating meaningful projects, which help humans be creative with technology.
 
