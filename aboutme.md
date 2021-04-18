@@ -1,10 +1,10 @@
 ---
 layout: page
 title: KIHONG KIM
-subtitle: 몰입을 즐기는 개발자, 김기홍입니다
+subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
 ---
 
-안녕하세요! 2년차 AI Engineer 김기홍입니다. 성장배경. 추구하는 가치. 생활 습관. 관심사.I'm currently studying at **Gwangju Institute of Science and Technology**, where I'm exploring **Generative Models** to re-create the visual world.
+안녕하세요! 2년차 AI Engineer 김기홍입니다. 예술공학에 빠져 살다가, 지금은 AI Engineering에 몰두하고 있습니다. 성장배경. 추구하는 가치. 생활 습관. 관심사.I'm currently studying at **Gwangju Institute of Science and Technology**, where I'm exploring **Generative Models** to re-create the visual world.
 
 I enjoy creating meaningful projects, which help humans be creative with technology.
 
