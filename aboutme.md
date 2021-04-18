@@ -33,4 +33,4 @@ subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
 - Deep Learning framework
   - `Pytorch`
 - DevOps
-  - Git, Docker, Vim
+  - `Git`, `Docker`, `Vim`
