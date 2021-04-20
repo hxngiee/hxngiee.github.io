@@ -22,9 +22,10 @@ class MyModule(nn.Module):
         self.linears = nn.ModuleList([nn.Linear(10, 10) for i in range(10)])
 ```
 
-## 자주사용하는 함수
-### Object의 속성(attribute) 존재를 확인하는 함수
-- `hasattr` / `getattr` / `setattr` : 멤버 확인, 변수 값 가져오기, 변수 값 설정
+## 자주사용하는 함수  
+### Object의 속성(attribute) 존재를 확인하는 함수  
+- `hasattr` / `getattr` / `setattr` : 멤버 확인, 변수 값 가져오기, 변수 값 설정  
+
 ```python
 class cls:
     a = 1
