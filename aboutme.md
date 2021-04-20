@@ -22,7 +22,7 @@ subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
 
 ### ✍ Research Interests  
 - Machine Learning
-  - Generative Model: Image Generation, Image-to-Imgae translation
+  - Generative Model: Image Generation / Image-to-Imgae translation
   - Neural Style Transfer
 
 
