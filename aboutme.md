@@ -62,10 +62,12 @@ subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
   - 사용한 Skill 또는 지식 : Processing, Kinect v2  
   - 결과/성과 : 세종대 2018 Art&Technology Contest 장려상, HCI KOREA 2019 Creative Award 출품, 타 전공(회화)학생과의 협업 경험  
 
-### 💻 Paper-Implementations
+
+### 💻 Paper Reproducing
   - PGGAN: Progressive Growing of GANs For Imporved Quality, Stability and Variation
   - StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation 
   - MUNIT: Multimodal Unsupervised Image-to-Image Translation
+
 
 ### 📄 Skills
 - Programming Language
