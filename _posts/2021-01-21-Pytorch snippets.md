@@ -6,12 +6,6 @@ tags: [Settings, Pytorch]
 comments: true
 ---
 
-# Beautiful Jekyll  
-
-{: .box-note}
-**Note:** This is a notification box.
-
-
 ## Table of contents
 - [세팅 및 문법 관련](#세팅-및-문법-관련)
 - [자주사용하는 함수](#자주사용하는-함수)
