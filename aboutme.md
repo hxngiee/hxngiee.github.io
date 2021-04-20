@@ -30,7 +30,7 @@ subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
 - Dream AI Smart Device Hackathon LG Challenge (GIST AI, LG)  
   - 진행기간 : 2020.10 ~ 2020.12  
   - 주요내용 : [1라운드 - 팀별 가짜 이미지 생성, 검출 모델 성능 경쟁] / [2라운드 - 기술사업화 PT 경쟁]  
-  - 본인이 기여한 점 : Image Generation/Detection 분야 SOTA 모델 분석, 모델 검증을 통한 성능 평가, Model Inference를 위한 Shell Script 작성  
+  - 본인이 기여한 점 : Image Generation/Detection 분야 SOTA 모델 분석, 모델 성능 검증 및 평가, 모델 Inference를 위한 Shell Script 작성  
   - 사용한 Skill 또는 지식 : Pytorch, Shell Script, Adversarial Autoencoder, Data Augmentation  
   - 결과/성과 : Smart Device Hackathon 3등 수상 (20팀 참가)  
 
@@ -43,7 +43,7 @@ subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
 
 - Multi-GPU를 활용한 GAN 학습 Framework 구축  
   - 진행기간 : 2021.1 ~ 2021.3  
-  - 주요내용 : Image Generation/Translation 논문 구현을 위한 학습 Framework 제작  
+  - 주요내용 : Image Generation/Translation 논문 구현을 위한 GAN 학습 Framework 제작  
   - 본인이 기여한 점 : GAN Model 구현 및 DistributedDataParallel 적용  
   - 사용한 Skill 또는 지식 : Pytorch DistributedDataParallel  
   - 결과/성과 :  Multi-GPU를 통한 학습 가속화, 분산학습 경험  
@@ -61,6 +61,11 @@ subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
   - 본인이 기여한 점 : 이미지 애니메이션 효과 적용, Depth에 따른 시각화 유무 판단, OSC 통신 프로토콜을 이용한 관람객 위치 좌표 전송  
   - 사용한 Skill 또는 지식 : Processing, Kinect v2  
   - 결과/성과 : 세종대 2018 Art&Technology Contest 장려상, HCI KOREA 2019 Creative Award 출품, 타 전공(회화)학생과의 협업 경험  
+
+### 💻 Paper-Implementations
+  - PGGAN: Progressive Growing of GANs For Imporved Quality, Stability and Variation
+  - StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation 
+  - MUNIT: Multimodal Unsupervised Image-to-Image Translation
 
 ### 📄 Skills
 - Programming Language
