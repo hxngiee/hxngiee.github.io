@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pytorch 기본 문법
+title: Pytorch snippets
 subtitle: 기본 문법, 자주사용하는 함수, 코드 모음
 tags: [Settings, Pytorch]
 comments: true
