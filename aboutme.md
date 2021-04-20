@@ -22,7 +22,7 @@ subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
 
 ### ✍ Research Interests  
 - Machine Learning
-  - Generative Model
+  - Generative Model: Image Generation, Image-to-Imgae translation
   - Neural Style Transfer
 
 
@@ -64,9 +64,9 @@ subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
 
 
 ### 💻 Paper Reproducing
-  - `PGGAN`: Progressive Growing of GANs For Imporved Quality, Stability and Variation
+  - **PGGAN**: Progressive Growing of GANs For Imporved Quality, Stability and Variation
   - **StarGAN**: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation 
-  - MUNIT: Multimodal Unsupervised Image-to-Image Translation
+  - **MUNIT**: Multimodal Unsupervised Image-to-Image Translation
 
 
 ### 📄 Skills
