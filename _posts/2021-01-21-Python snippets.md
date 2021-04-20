@@ -23,11 +23,24 @@ class MyModule(nn.Module):
 ```
 
 ## 자주사용하는 함수
+### Object의 속성(attribute) 존재를 확인하는 함수
+- `hasattr` / `getattr` / `setattr`
 ```python
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+class cls:
+    a = 1
+    def b(self):
+        pass
+
+# cls에 b라는 멤버가 있는지 확인
+>>> hasattr(cls, 'b')
+True
+
+# cls에서 a변수의 값 가져오기
+>>> getattr(cls, 'a')
+1
+
+# cls의 a라는 변수에 값 9 설정하기
+>>> setattr(cls, 'a', 9)
 ```
 
 
@@ -41,8 +54,7 @@ foo(3)
 ```
 
 ### Reference
-**[1] [dl-pytorch-snippets](https://gaussian37.github.io/dl-pytorch-snippets/#dataloader%EC%9D%98-pin_memory-1)**  
-**[2] [nn.Sequential() / nn.ModuleList()](https://gaussian37.github.io/dl-pytorch-snippets/#dataloader%EC%9D%98-pin_memory-1)**  
-**[3] [nn.Embedding()](https://wikidocs.net/64779)** 
+**[1] [파이썬 조각 코드 모음집](https://wikidocs.net/book/536)**  
+
 
 
