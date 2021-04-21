@@ -41,6 +41,20 @@ True
 >>> setattr(cls, 'a', 9)
 ```
 
+### 문자열 치환 replace 함수  
+- replace('검색 문자', '치환 문자', 바꿀횟수)  
+
+```python
+# 검색 문자 전부 변경하고 싶을 때
+str = 'orange, orange, melon'
+str = str.replace('orange', 'apple')
+>>> apple, apple, melon
+
+# 특정 횟수만큼 바꾸고 싶을 경우
+str = 'orange, orange, melon'
+str = str.replace('orange', 'apple', 1)
+>>> apple, orange, melon
+```
 
 ## 자주 사용하는 코드 모음
 
