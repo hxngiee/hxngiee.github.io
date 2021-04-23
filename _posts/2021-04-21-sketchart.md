@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Project] Sketch2Art  
+title: Project Sketch2Art  
 subtitle: Creating Artistic Images from Freehand Sketches 
 thumbnail-img: /assets/img/projects_sketch2art.png 
 tags: [Project, Image-to-Image Translation]
