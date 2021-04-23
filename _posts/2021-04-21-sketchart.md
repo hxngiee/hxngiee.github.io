@@ -29,15 +29,23 @@ comments: true
 
 ## Data Processing
 - Sketch Data는 Object의 Edge를 바탕으로 구성된 흑백 이미지로 딥러닝 학습에 필요한 데이터의 양이 충분치 않음
-- 일반적으로 많이 알려진 pix2pix의 edges2shoes, edges2handbags의 경우, 다수의 dataset(5만개, 13만개)가 존재하나 새로운 카테고리에 대한 Sketch를 구하고자 할 경우, 해당 카테고리에 대한 Edge Detection과 Post-Processing 작업이 필요
+- 일반적으로 많이 알려진 pix2pix의 edges2shoes, edges2handbags의 경우, 다수의 dataset(5만개, 13만개)이 존재하나 새로운 카테고리에 대한 Sketch를 구하고자 할 경우, 해당 카테고리에 대한 Edge Detection과 Post-Processing 작업이 필요
 - 본 글에서는 Semantic Segmentation 네트워크(DeepLabv3 사용)를 이용하여 일반 사진으로부터 특정 class에 대한 이미지를 검출/가공하고 해당 이미지를 딥러닝 학습에 적용하기 위한 절차를 서술
 
-1. Object Define
-2. Crop for easy training 
-3. Using Segmented Image as mask using deeplab3
-4. background reverse
-5. Guassian blur -> blur, Aperature
-6. 공백 이미지 제거
+1. Sketch Object 선정
+Semantic Segmentation Network로부터 얻고자하는 class 지정하여, 이미지에서 특정 class의 pixel만 검출해내는 binary Segmentation map 확보
+
+2. Background 이미지 제거
+binary Segmentation map을 Mask 이미지로 사용하여 곱연산을 통해 background 이미지 제거
+
+3. 흑백 반전
+스케치 특성을 반영한 이미지를 만들기 위해 흑백 반전
+
+4. Guassian blur -> blur, Aperature
+Guassian blur를 통해 노이즈를 제거하고 Canny파라미터 조절을 통해
+
+5. 공백 이미지 제거
+ML 학습히 black out 할 수 있음
 
 
 <center>
