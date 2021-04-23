@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project Sketch2Art  
+title: Project - Sketch2Art  
 subtitle: Creating Artistic Images from Freehand Sketches 
 thumbnail-img: /assets/img/projects_sketch2art.png 
 tags: [Project, Image-to-Image Translation]
@@ -15,4 +15,17 @@ comments: true
 **사용한 Skill 또는 지식:** Pytorch, Flask, Unsupervised Image-to-Image Translation  
 
 
-# 목차
+## Table of contents
+- [Data Processing](#data-processing)
+- [Reference Image와 StyleTransfer간의 관계](#reference-image와-styletransfer간의-관계)
+- [Styling 효과를 결정짓는 Image Size와 Network의 Receptive Fields](#styling-효과를-결정짓는-image-size와-network의-receptive-fields)
+- [마치며](#마치며)  
+  
+  
+## Data Processing
+
+<center>
+<img src="/assets/img/styletransfer_5.png" alt="Component model visualisation">
+</center>  
+
+글.
