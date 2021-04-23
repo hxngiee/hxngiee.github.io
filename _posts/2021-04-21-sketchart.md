@@ -32,24 +32,22 @@ comments: true
 - 일반적으로 많이 알려진 pix2pix의 edges2shoes, edges2handbags의 경우, 다수의 dataset(5만개, 13만개)이 존재하나 새로운 카테고리에 대한 Sketch를 구하고자 할 경우, 해당 카테고리에 대한 Edge Detection과 Post-Processing 작업이 필요
 - 본 글에서는 Semantic Segmentation 네트워크(DeepLabv3 사용)를 이용하여 일반 사진으로부터 특정 class에 대한 이미지를 검출/가공하고 해당 이미지를 딥러닝 학습에 적용하기 위한 절차를 서술
 
-1. Sketch Object 선정
+1. Sketch Object 선정  
 Semantic Segmentation Network로부터 얻고자하는 class 지정하여, 이미지에서 특정 class의 pixel만 검출해내는 binary Segmentation map 확보
 
-2. Background 이미지 제거
+2. Background 이미지 제거  
 binary Segmentation map을 Mask 이미지로 사용하여 곱연산을 통해 background 이미지 제거
 
-3. 흑백 반전
+3. 흑백 반전  
 스케치 특성을 반영한 이미지를 만들기 위해 흑백 반전
 
-4. Guassian blur -> blur, Aperature
+4. Guassian blur -> blur, Aperature  
 Guassian blur를 통해 노이즈를 제거하고 Canny파라미터 조절을 통해
 
-5. 공백 이미지 제거
-ML 학습히 black out 할 수 있음
+5. 이미지 Erosion과 Dilation
+
+6. 공백 이미지 제거  
+PyTorch를 이용하여 모델학습시 Input Tensor가 NaN or INF가 되는 경우가 존재하는데, Input Tensor가 Nan(or Infinite)이 될 경우, backpropagation 과정에서 문제가 발생하여 모델이 Blackout 됨. 따라서 전처리를 거친 data중 NaN or INF 이미지가 없는지 검증하는 과정을 거쳐야 함
 
 
-<center>
-<img src="/assets/img/styletransfer_5.png" alt="Component model visualisation">
-</center>  
 
-글.
