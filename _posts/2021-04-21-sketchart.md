@@ -50,4 +50,7 @@ Guassian blur를 통해 노이즈를 제거하고 Canny파라미터 조절을 �
 PyTorch를 이용하여 모델학습시 Input Tensor가 NaN or INF가 되는 경우가 존재하는데, Input Tensor가 Nan(or Infinite)이 될 경우, backpropagation 과정에서 문제가 발생하여 모델이 Blackout 됨. 따라서 전처리를 거친 data중 NaN or INF 이미지가 없는지 검증하는 절차가 필요
 
 
+## Modeling
+- MUNIT
+- PONO
 
