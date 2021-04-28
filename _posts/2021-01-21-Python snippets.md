@@ -52,10 +52,18 @@ True
 
 
 ## 자주 사용하는 코드 모음
+### iterable 자료형을 순서대로 묶어주는 zip 함수  
+- 배열을 같은 인덱스끼리 짝지어준다. 만약 배열의 길이가 다를 경우 같은 인덱스끼리만 짝지어주고, zip 객체에서 나머지 인덱스는 제외된다  
 
 ```python
-write code here
+participant.sort()
+completion.sort()
+for p,c in zip(participant, completion):
+    if p != c:
+        return p
+return participant.pop()
 ```
+
 
 ### Reference
 **[1] [파이썬 조각 코드 모음집](https://wikidocs.net/book/536)**  
