@@ -27,6 +27,19 @@ str = str.replace('orange', 'apple', 1)
 >>> apple, orange, melon
 ```
 
+### 시작하는 문자 startswith  
+- startswith('시작 문자')
+
+```python
+# 기본 예제
+s = 'hello world'
+s.startswith('hello')
+>>> True
+
+# 프로그래머스 예제
+for p1, p2 in zip(phoneBook, phoneBook[1:]):
+    if p2.startswith(p1):
+```
 
 ## 자주사용하는 함수  
 ### Object의 속성(attribute) 존재를 확인하는 함수  
