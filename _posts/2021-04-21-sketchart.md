@@ -24,6 +24,11 @@ comments: true
 
 
 ## Introduction
+
+<center>
+<img src="/assets/img/sketch2art-styletransfer.png" alt="Component model visualisation">
+</center>  
+
 - 문제인식 : 기존 Image Optimize 방식인 StyleTransfer 로는 Sketch 이미지를 효과적으로 Stylize 할 수 없음  
 
 
