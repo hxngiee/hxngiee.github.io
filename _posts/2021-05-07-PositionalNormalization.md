@@ -2,8 +2,8 @@
 layout: post
 title: Positional Normalization  
 subtitle: Keeps position and Normalize across channel
-thumbnail-img: /assets/img/projects_sketch2art.png 
-tags: [Project, Image-to-Image Translation]
+thumbnail-img: /assets/img/pr_pono.png 
+tags: [Paper Review]
 comments: true
 ---
 
