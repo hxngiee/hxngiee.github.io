@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Positional Normalization  
+title: Positional Normalization - 작성중 
 subtitle: Keeps position and Normalize across channel
 thumbnail-img: /assets/img/pr_pono.png 
 tags: [Paper Review]
