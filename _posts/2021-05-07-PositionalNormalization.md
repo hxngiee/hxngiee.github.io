@@ -7,10 +7,6 @@ tags: [Paper Review]
 comments: true
 ---
 
-{: .box-note}
-**한줄요약**  
-
-
 ## Table of contents
 - [Abstract](#abstract)
 - [Normalization Method](#normalization-method)
