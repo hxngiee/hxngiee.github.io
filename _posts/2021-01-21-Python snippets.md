@@ -12,6 +12,30 @@ comments: true
 - [자주 사용하는 코드 모음](#자주-사용하는-코드-모음)  
 
 ## 세팅 및 문법 관련  
+### Dictionary 관련 함수들
+- d.items(), d.keys(), d.values(), d.get('key 값')  
+
+```python
+a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
+
+>>> a.get('name')
+'pey'
+
+>>> a.items()
+dict_items([('name', 'pey'), ('phone', '0119993323'), ('birth', '1118')])
+
+>>> list(a.keys())
+>>> ['name', 'phone', 'birth']
+
+# 해당 Key가 딕셔너리 안에 있는지 조사하기
+>>> 'name' in a
+True
+
+>>> 'email' in a
+False
+
+```
+
 ### 문자열 치환 replace 함수  
 - replace('검색 문자', '치환 문자', 바꿀횟수)  
 
