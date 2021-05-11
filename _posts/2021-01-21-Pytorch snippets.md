@@ -12,6 +12,11 @@ comments: true
 - [자주 사용하는 코드 모음](#자주-사용하는-코드-모음)  
 
 ## 세팅 및 문법 관련  
+### torch.no_grad()와 model.eval()
+- `torch.no_grad()` autograd engine을 꺼버려 더 이상 자동으로 gradient를 트래킹하지 않는다. 메모리 사용량을 줄이고 연산 속도를 높히기 위해 사용되며 inference 진행할때 torch.no_grad() with statement로 감싼다
+- `model.eval()` 모델링 시 training과 inference시에 다르게 동작하는 layer들이 존재한다. 예를 들면, Dropout layer는 학습시에는 동작해야하지만, inference시에는 동작하지 않는 것과 같은 예시를 들 수 있다. model.eval()는 이런 layer들의 동작을 inference(eval) mode로 바꿔준다는 목적으로 사용된다. 
+
+
 ### block을 쌓기 위한 Module  
 - `nn.Sequential` 여러 nn.Module을 한 컨테이너에 넣고 한번에 돌리는 방법. 컨테이너에 적힌 순서대로 값을 전달해 처리. 빠르고 간단히 사용하기 편함
 - `nn.ModuleList` 각 Layer를 리스트에 전달하고 레이어의 iterator를 만듬. forward 파트를 간단하게 작성 가능  
