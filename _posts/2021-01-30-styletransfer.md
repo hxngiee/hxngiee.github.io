@@ -52,13 +52,12 @@ comments: true
 궁금증을 가지고 원인을 파악하던 중, Reference Image의 사이즈 조절로 다른 Styling 효과를 얻었다는 ISSUE를 읽었습니다. 위에 보이는 것과 같이 Image의 Size를 160x160으로 작게 줄여 학습시킬 경우, 네트워크가 참조 이미지의 local한 stroke feature에 주목하고, 960x960 이미지로 학습한 경우 참조 이미지의 global한 stroke feature에 주목하여 조금 더 단순한 이미지로 변환한 것이었습니다. 결과적으로 하나의 네트워크에서 Reference Image의 size와 네트워크의 receptive field가 어떻게 구성되었는지에 따라 Styling 효과가 다르게 나타나는 것을 알 수 있었습니다.
 
 ## 마치며
-실험을 마치며 몇가지 해결되지 않은 의문들이 있었다.  
+아직 시간적 여유가 없어 자세히 알아보진 못했지만, 실험을 마치고 몇가지 해결되지 않은 의문들이 있었습니다.  
 1. Reference Image Size를 고정했을때 이미지의 특성에 상관없이 좋은 성능을 발휘하는 네트워크를 만들 수 있을까?
 2. Receptive Fields의 크기가 고정되었을 때 작은 이미지의 경우 이미지의 더 많은 부분을 보고 큰 이미지의 경우 더 작은 부분을 보아서 반대의 결과가 나올 줄 알았다. 
 3. 이미지에서 스타일의 복잡도는 어떻게 정량화할 수 있을까?(Edge의 개수?,Color의 다양성?)
 4. Reference Image의 복잡도에 따라 Adaptive하게 Layer selection이나 이미지 resize를 해준다면?  
-
-아직 시간적 여유가 없어 자세히 알아보지 못하고 있다. 바쁜 일을 마무리하고 글을 다시 마무리해야 겠다.
+바쁜 일을 마무리하고 글을 다시 마무리하도록 하겠습니다
 
 ### Reference
 **[1] [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf)**  
