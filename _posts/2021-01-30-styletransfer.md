@@ -1,6 +1,6 @@
 ---
 layout: post
-title: StyleTransfer Experiment - 작성중
+title: StyleTransfer Experiment
 subtitle: Styling 효과를 결정짓는 Reference Image Size와 Network의 Receptive Fields
 thumbnail-img: /assets/img/styletransfer_1.jpg
 share-img: /assets/img/styletransfer_1.jpg
@@ -57,6 +57,8 @@ comments: true
 2. Receptive Fields의 크기가 고정되었을 때 작은 이미지의 경우 이미지의 더 많은 부분을 보고 큰 이미지의 경우 더 작은 부분을 보아서 반대의 결과가 나올 줄 알았다. 
 3. 이미지에서 스타일의 복잡도는 어떻게 정량화할 수 있을까?(Edge의 개수?,Color의 다양성?)
 4. Reference Image의 복잡도에 따라 Adaptive하게 Layer selection이나 이미지 resize를 해준다면?  
+
+
 바쁜 일을 마무리하고 글을 다시 마무리하도록 하겠습니다
 
 ### Reference
