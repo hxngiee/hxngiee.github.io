@@ -33,8 +33,17 @@ True
 
 >>> 'email' in a
 False
-
 ```
+
+### heapq 모듈 / 힙(Heap) 구조
+- heapq.heappush(list,value), heapq.heappop(list) : heapq는 일반적인 리스트와 다르게, 가지고 있는 요소를 push, pop 할때마다 자동으로 정렬해줌. 정렬 비용을 감소시킴으로써 효율성 이슈 해결
+```python
+h = []
+for x in lst:
+    heapq.heappush(h,x)
+heapq.heappush(h, heapq.heappop(h) + (heapq.heappop(h) * 2))
+```
+
 
 ### 문자열 치환 replace 함수  
 - replace('검색 문자', '치환 문자', 바꿀횟수)  
