@@ -32,8 +32,7 @@ comments: true
 <center>
 <img src="/assets/img/pono-normalization_variants.png" alt="Component model visualisation">
 </center>  
-
-- 
+이미지 생성 분야에서 Instance Normalization은 이미지별 feature statistics를 직접 normalize함으로써 style variation을 제거하는 효과를 가져오고 Style Transfer 분야에서 Batch Normalization을 대체하는 모듈로 활발히 활용되어왔습니다(BN의 경우 배치단위로 normalize가 이뤄지기 때문에 domain별 스타일이 뭉뚱그려져 학습되는 문제가 있었습니다, IN은 이미지 하나 하나를 쪼개서 normalize하여 stylie 학습에 잘 작동한다고 알려져 있습니다. )
 
 ## Positional Normalization
 <center>
@@ -45,7 +44,7 @@ Positional Normalization 적용시 네트워크가 성공적으로 이미지(고
 <center>
 <img src="/assets/img/pono-pono_ms.png" alt="Component model visualisation">
 </center>  
-기존 Normalization Method의 경우 Encoding 단계에서 구한 통계값을 사용되고 버려지나, Positional Normalization에서는 해당 정보를 Decoding시 다시 활용하여 GAN이 Structural한 정보를 더 쉽게 복원하도록 돕습니다.
+기존 Normalization Method의 경우 Encoding 단계에서 구한 Feature Statistics이 사용되고 버려지나, Positional Normalization에서는 해당 정보를 Decoding시 다시 활용하여 GAN이 Structural한 정보를 더 쉽게 복원하도록 돕습니다.
 
 ## Experiments and Analysis
 - 
