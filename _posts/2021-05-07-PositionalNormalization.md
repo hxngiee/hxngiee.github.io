@@ -36,10 +36,11 @@ comments: true
 - 
 
 ## Positional Normalization
-
 <center>
 <img src="/assets/img/pono-moments.png" alt="Component model visualisation">
 </center>  
+Positional Normalization 적용시 네트워크가 성공적으로 이미지(고양이, 모나리자)의 General한 Structure를 포착한 것을 확인할 수 있습니다. 특히 초기 layer에서는 눈과 귀같은 이미지의 details한 부분들을 포착해내고, 후기 layer에서는 전반적인 shape를 포착한 것을 알 수 있습니다.
+
 
 <center>
 <img src="/assets/img/pono-pono_ms.png" alt="Component model visualisation">
