@@ -22,12 +22,13 @@ comments: true
 
 
 ## Normalization Method
+### Feature Block
 <center>
 <img src="/assets/img/pono-deepfeature.png" alt="Component model visualisation">
 </center>  
+정규화 기법을 이해하기 위한 사전 지식으로 Feature Block에 대해 설명합니다. 고양이 이미지가 하나의 Layer를 통과할 때, 6개 feature를 얻었다고 가정합니다. 각 채널별 feature 이미지를 1d array로 flatten시켜 6개의 1d array를 갖습니다. 여기서 하나의 열은 해당 채널의 Feature 이미지를, 행은 Feature 이미지별 같은 position을 나타냅니다. 채널별 feature array를 모아 Matrix로 바꾸고 이를 batch 단위로 쌓아 최종 Feature Block을 만듭니다. 
 
-<br>
-
+### Normalization Variants
 <center>
 <img src="/assets/img/pono-normalization_variants.png" alt="Component model visualisation">
 </center>  
@@ -43,8 +44,7 @@ comments: true
 <center>
 <img src="/assets/img/pono-pono_ms.png" alt="Component model visualisation">
 </center>  
-
-- 
+기존 Normalization Method의 경우 Encoding 단계에서 구한 통계값을 Vanish Gradient를 완화할 목적으로 사용되고 버려지나, Positional Normalization에서는 해당 정보를 Decoding시 다시 활용하여 GAN이 Structural한 정보를 더 쉽게 복원하도록 돕습니다.
 
 ## Experiments and Analysis
 - 
