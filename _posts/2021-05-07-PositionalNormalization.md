@@ -23,21 +23,15 @@ comments: true
 
 ## Normalization Method
 <center>
-<p style="width:50%;height:400px;float:left;overflow:hidden;">
-<img alt="1" src="/assets/img/pono-deepfeature.jpg"  style="height:100%;"/>
-</p>
-<p style="width:50%;height:400px;overflow:hidden;">
-<img alt="2" src="/assets/img/pono-normalization_variants.png"  style="height:100%;"/>
-</p>
-<em> Left : AFHQ 고양이 이미지 / Right : 일반 이미지에 Canny를 적용한 이미지</em>
-</center> 
-
-<center>
 <img src="/assets/img/pono-deepfeature.png" alt="Component model visualisation">
 </center>  
+
+<br>
+
 <center>
 <img src="/assets/img/pono-normalization_variants.png" alt="Component model visualisation">
 </center>  
+
 - 
 
 ## Positional Normalization
