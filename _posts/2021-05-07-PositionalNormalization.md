@@ -32,7 +32,7 @@ comments: true
 <center>
 <img src="/assets/img/pono-normalization_variants.png" alt="Component model visualisation">
 </center>  
-이미지 생성 분야에서 Instance Normalization은 이미지별 feature statistics를 직접 normalize함으로써 style variation을 제거하는 효과를 가져오고 Style Transfer 분야에서 Batch Normalization을 대체하는 모듈로 활발히 활용되어왔습니다(BN의 경우 배치단위로 normalize가 이뤄지기 때문에 domain별 스타일이 뭉뚱그려져 학습되는 문제가 있었습니다, IN은 이미지 하나 하나를 쪼개서 normalize하여 stylie 학습에 잘 작동한다고 알려져 있습니다. )
+이미지 생성 분야에서 Instance Normalization은 이미지별 feature statistics를 직접 normalize함으로써 style variation을 제거하는 효과를 가져오고 Style Transfer 분야에서 Batch Normalization을 대체하는 모듈로 활발히 활용되어왔습니다(BN의 경우 배치단위로 normalize가 이뤄지기 때문에 domain별 스타일이 뭉뚱그려져 학습되는 문제가 발생, IN은 이미지 하나 하나를 쪼개서 normalize하여 stylie 학습에 잘 작동한다고 알려짐) Group Normalization과 Layer Normalization의 경우, 채널을 같이 Normalize하여 채널간 유기적인 정보를 보존해야할 때 유용히 사용되었습니다. 하지만 이전 Normalization Method의 경우, 모두 Position축을 가로 질러 정규화를 수행하였고 그 결과 위치정보가 정규화되어 사라진 결과를 낳았습니다. Positional Normalization은 Pixel position별 Feature 차원의 정규화를 수행한 기법으로 Feature statistic의 유의미한 Structural한 정보를 남길 수 있게 되었습니다.
 
 ## Positional Normalization
 <center>
