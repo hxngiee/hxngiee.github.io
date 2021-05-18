@@ -54,10 +54,10 @@ Positional Normalization 적용시 네트워크가 성공적으로 이미지(고
 <img src="/assets/img/pono-table1.PNG" alt="Component model visualisation">
 </center>  
 
-- PONO가 SPADE의 Map->Photo의 Case를 제외하고 모든 경우에서 향상된 성능을 보임
-- Skip Connections의 경우, feature를 마지막 Layer까지 더해가는게 불필요한 정보를 전달한다는 점에서 오히려 Model에 혼란을 주었음
+- PONO가 SPADE의 Map->Photo의 Case를 제외하고 모든 경우에서 성능 향상을 보였습니다  
+- Skip Connections의 경우, feature를 마지막 Layer까지 과정이 불필요한 정보를 전달한다는 점에서 Model 성능을 저하시켰다고 보고 있습니다
     - 비슷한 Content가 없는 Unpaired된 dataset때문에 효과를 못본 것으로 추정
-- SPADE의 경우, Photo->Map에서 성능이 저하되었는데 입력 레이아웃을 지속적으로 사용하는 방식이 structural 정보를 복원하는데 방해가되었다고 추정
+- SPADE의 경우, Photo->Map에서 성능이 저하되었는데 입력 레이아웃을 지속적으로 사용하는 방식이 structural 정보를 복원하는데 방해가되었다고 보고하고 있습니다
 
 
 ### Results of Attribute Controlled Image Translation
@@ -70,23 +70,14 @@ Positional Normalization 적용시 네트워크가 성공적으로 이미지(고
 <img src="/assets/img/pono-table3.PNG" alt="Component model visualisation">
 </center>  
 
-- DRIT과 MUNIT의 비교에서 MUNIT이 parameter가 더 많음에도 PONO와 결합했을 때 낮은 성능을 보임
+- Portrait<->Photo datasets의 경우, DRIT과 MUNIT의 비교에서 MUNIT이 parameter가 더 많음에도 성능이 더 낮은 것을 보였습니다
     - MUNIT 자체가 Portrait<->Photo datasets에 맞게 디자인되지 않은 것을 원인으로 보고 있음
-        - 데이터 수가 더 적고, image resolution이 다름
-- AFHQ dataset의 경우, 비약적인 성능 향상을 나타냄
-- Output Layer 이전에 Conv3x3-LN-ReLU를 추가한 MUNIT'이 비선형성을 증가시켜 네트워크의 성능을 높임
+        - 데이터 수, image resolution의 차이
+- AFHQ dataset의 경우, MUNIT에서 비약적인 성능 향상을 보였습니다
+- Output Layer 이전에 Conv3x3-LN-ReLU를 추가한 MUNIT'이 비선형성을 증가시켜 네트워크의 성능을 높였습니다
    - 기존에는 Output Layer와 input 사이에 feature statistic을 re-introduce하는 Layer가 1개밖에 없었음
 
 ## Conclusion
 - Instance Normalization이 이미지의 Style 정보를 잘 포착했듯이, Positional Normalization은 이미지의 Structural한 정보를 잘 뽑아냄
 - Generative Networks의 기존 Metrics에서 향상된 performance를 보임
 - Future work로 Structure와 Style 정보를 동시에 disentangling할 수 있는 architecture에 대해 연구할 것을 밝힘
-
-
-
-### Reference
-**[1] [딥러닝 GAN 튜토리얼 - 시작부터 최신 트렌드까지 GAN 논문 순서](https://ysbsb.github.io/gan/2020/06/17/GAN-newbie-guide.html)**  
-
-
-
-
