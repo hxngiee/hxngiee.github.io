@@ -48,6 +48,18 @@ Positional Normalization 적용시 네트워크가 성공적으로 이미지(고
 기존 Normalization Method의 경우 Encoding 단계에서 구한 Feature Statistics이 사용되고 버려지나, Positional Normalization에서는 해당 정보를 Decoding시 다시 활용하여 GAN이 Structural한 정보를 더 쉽게 복원하도록 돕습니다.
 
 ## Experiments and Analysis
+<center>
+<img src="/assets/img/pono-table1.PNG" alt="Component model visualisation">
+</center>  
+
+<center>
+<img src="/assets/img/pono-table2.PNG" alt="Component model visualisation">
+</center>  
+
+<center>
+<img src="/assets/img/pono-table3.PNG" alt="Component model visualisation">
+</center>  
+
 - 
 
 ## Conclusion
