@@ -17,8 +17,9 @@ comments: true
 
 ## Abstract
 - NIPS'19 spotlight에 발표된 Normalization 기법
-- Pixel position별 Feature 차원의 정규화를 통해, 네트워크가 Structural한 정보를 쉽게 파악하도록 도움
-- GAN에 적용하였을 때, baseline 모델 성능이 크게 향상되는 것을 보임
+- 기존 normalization method들은 spatial dimension을 거쳐 normalize하고 feature statistic을 버림
+- 채널축에 따라 Pixel position별 Feature 정규화를 진행하여 structural 정보를 얻음
+- Generative Networks에서 Encoding시 획득한 feature statistic을 Decoding시 활용하여 네트워크가 Structural한 정보를 쉽게 파악하도록 도움
 
 
 ## Normalization Method
