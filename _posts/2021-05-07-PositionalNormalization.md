@@ -48,14 +48,17 @@ Positional Normalization 적용시 네트워크가 성공적으로 이미지(고
 기존 Normalization Method의 경우 Encoding 단계에서 구한 Feature Statistics이 사용되고 버려지나, Positional Normalization에서는 해당 정보를 Decoding시 다시 활용하여 GAN이 Structural한 정보를 더 쉽게 복원하도록 돕습니다.
 
 ## Experiments and Analysis
+### 
 <center>
 <img src="/assets/img/pono-table1.PNG" alt="Component model visualisation">
 </center>  
 
+### Results of Attribute Controlled Image Translation
 <center>
 <img src="/assets/img/pono-table2.PNG" alt="Component model visualisation">
 </center>  
 
+### PONO can improve the performance of MUNIT
 <center>
 <img src="/assets/img/pono-table3.PNG" alt="Component model visualisation">
 </center>  
@@ -65,4 +68,4 @@ Positional Normalization 적용시 네트워크가 성공적으로 이미지(고
 ## Conclusion
 - Instance Normalization이 이미지의 Style 정보를 잘 포착했듯이, Positional Normalization은 이미지의 Structural한 정보를 잘 뽑아냄
 - Generative Networks의 기존 Metrics에서 향상된 performance를 보임
-- Future work로 Structure와 Style 정보를 동시에 disentangling할 수 있는 architecture에 대해 연구를 진행할 것을 밝힘
+- Future work로 Structure와 Style 정보를 동시에 disentangling할 수 있는 architecture에 대해 연구할 것을 밝힘
