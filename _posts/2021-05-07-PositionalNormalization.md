@@ -63,4 +63,6 @@ Positional Normalization 적용시 네트워크가 성공적으로 이미지(고
 - 
 
 ## Conclusion
-- 
+- Instance Normalization이 이미지의 Style 정보를 잘 포착했듯이, Positional Normalization은 이미지의 Structural한 정보를 잘 뽑아냄
+- Generative Networks의 기존 Metrics에서 향상된 performance를 보임
+- Future work로 Structure와 Style 정보를 동시에 disentangling할 수 있는 architecture에 대해 연구를 진행할 것을 밝힘
