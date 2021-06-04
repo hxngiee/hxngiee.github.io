@@ -92,11 +92,11 @@ torch.Size([4, 2, 3])
 ```
 
 ## 자주사용하는 함수
+- `summary()` Pytorch 모델을 Summary해주는 Torch Summary Module.
+
 ```python
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+from torchsummary import summary
+summary(model(), input_size=(3,size,size), device='cpu')
 ```
 
 
