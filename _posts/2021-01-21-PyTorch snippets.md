@@ -2,7 +2,7 @@
 layout: post
 title: Pytorch snippets
 subtitle: 기본 문법, 자주사용하는 함수, 코드 모음
-tags: [Settings, Pytorch]
+tags: [Settings, PyTorch]
 comments: true
 ---
 
@@ -111,9 +111,9 @@ foo(3)
 
 ### Reference
 **[1] [dl-pytorch-snippets](https://gaussian37.github.io/dl-pytorch-snippets/#dataloader%EC%9D%98-pin_memory-1)**  
-**[2] [nn.Sequential() / nn.ModuleList()](https://gaussian37.github.io/dl-pytorch-snippets/#dataloader%EC%9D%98-pin_memory-1)**  
-**[3] [nn.Embedding()](https://wikidocs.net/64779)** 
-**[4] [no_grad()와 eval()의 차이](https://coffeedjimmy.github.io/pytorch/2019/11/05/pytorch_nograd_vs_train_eval/)** 
-**[5] [Python argparse 사용법](https://greeksharifa.github.io/references/2019/02/12/argparse-usage/)** 
+**[2] [nn.Sequential() / nn.ModuleList()](https://gaussian37.github.io/dl-pytorch-snippets/#dataloader%EC%9D%98-pin_memory-1)**   
+**[3] [nn.Embedding()](https://wikidocs.net/64779)**  
+**[4] [no_grad()와 eval()의 차이](https://coffeedjimmy.github.io/pytorch/2019/11/05/pytorch_nograd_vs_train_eval/)**  
+**[5] [Python argparse 사용법](https://greeksharifa.github.io/references/2019/02/12/argparse-usage/)**  
 
 
