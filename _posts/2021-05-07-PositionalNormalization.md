@@ -74,5 +74,5 @@ Positional Normalization 적용시 네트워크가 성공적으로 이미지(고
     - MUNIT 자체가 해당 dataset에 맞게 디자인되지 않은 것을 원인으로 보고 있습니다(데이터 수, image resolution의 차이)
 - AFHQ dataset의 경우, MUNIT에서 비약적인 성능 향상을 보였습니다
 - Output Layer 이전에 Conv3x3-LN-ReLU를 추가한 MUNIT'이 비선형성을 증가시켜 네트워크의 성능을 높였습니다
-   - 기존에는 Output Layer와 input 사이에 feature statistic을 re-introduce하는 Layer가 1개밖에 없었
+   - 기존에는 Output Layer와 input 사이에 feature statistic을 re-introduce하는 Layer가 1개밖에 없었습니다
 
