@@ -1,6 +1,6 @@
 ---
 layout: post
-title: StyleTransfer Experiment
+title: StyleTransfer Experiment - 작성중
 subtitle: Styling 효과를 결정짓는 Reference Image Size와 Network의 Receptive Fields
 thumbnail-img: /assets/img/styletransfer_1.jpg
 share-img: /assets/img/styletransfer_1.jpg
