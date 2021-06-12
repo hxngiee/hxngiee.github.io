@@ -1,42 +1,31 @@
 ---
 layout: post
 title: ML Concepts
-subtitle: 기본 문법, 자주사용하는 함수, 코드 모음
+subtitle: 기본 용어의 개념과 자주 사용하는 기법 정리
 tags: [ML, Pytorch]
 comments: true
 ---
 
 ## Table of contents
-- [세팅 및 문법 관련](#세팅-및-문법-관련)
-- [자주사용하는 함수](#자주사용하는-함수)
-- [자주 사용하는 코드 모음](#자주-사용하는-코드-모음)  
-
-## 세팅 및 문법 관련  
-### 시작하는 문자 startswith  
-- startswith('시작 문자')
-
-```python
-# 기본 예제
-
-```
-
-## 자주사용하는 함수  
-### Object의 속성(attribute) 존재를 확인하는 함수  
-- `hasattr` / `getattr` / `setattr` : 멤버 확인, 변수 값 가져오기, 변수 값 설정  
-
-```python
-class cls:
-```
+- [기본 용어의 개념](#기본-용어의-개념)
+- [자주 사용하는 기법](#자주-사용하는-기법)
 
 
-## 자주 사용하는 코드 모음
-### iterable 자료형을 순서대로 묶어주는 zip 함수  
-- 배열을 같은 인덱스끼리 짝지어준다. 만약 배열의 길이가 다를 경우 같은 인덱스끼리만 짝지어주고, zip 객체에서 나머지 인덱스는 제외된다  
 
-```python
-participant.sort()
-```
+## 기본 용어의 개념
+
+### Inductive bias  
+### GAN Evaluation Metric  
+### seamless  
+- 뛰어난 호환성, 부드러운 상호연결성
+- 소프트웨어분야에서 여러개의 프로그램이 마치 원래 하나였던 것처럼 깔끔한 인터페이스로 연결되어 있는 것을 뜻함
+- transformer가 여러 도메인(영상, 음성 등)의 task를 잘 처리하는 특징을 seamless하다고 표현
+
+
+## 자주 사용하는 기법  
+### Global Average Pooling
+
 
 
 ### Reference
-**[1] [ML Concepts](https://gaussian37.github.io/dl/concept/)**  
+**[1] [Global Average Pooling 이란](https://gaussian37.github.io/dl-concept-global_average_pooling/)**  
