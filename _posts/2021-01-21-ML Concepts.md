@@ -24,6 +24,10 @@ comments: true
 
 ## 자주 사용하는 기법  
 ### Global Average Pooling
+- CNN + FC Layer에서 classifier인 FC Layer를 없애기 위한 방법으로 도입
+- 어떤 크기의 feature라도 같은 채널의 값들을 하나의 평균 값으로 대체 (H,W,C) -> (1,1,C)
+- 파라미터가 추가되지 않아 연산 측면에서 유리하고 over fitting도 완화할 수 있음
+- FC Layer는 파라미터수가 과도하게 증가하는 단점이 있으며 overffint 유발
 
 
 
