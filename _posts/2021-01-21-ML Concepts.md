@@ -14,6 +14,8 @@ comments: true
 ## 기본 용어의 개념
 
 ### Inductive bias  
+- 학습자가 지금까지는 만나보지 않았던 상황에서 정확한 예측을 하기 위해 사용하는 추가적인 가정  
+
 ### GAN Evaluation Metric  
 - LPIPS: Learned Perceptual Image Patch Similarity
     - 두 이미지의 perceptual distance를 계산하는 방식
@@ -22,7 +24,6 @@ comments: true
     - 실제 training dataset의 distribution과 생성된 영상의 distribution의 거리를 계산하는 방식
     - Inception network의 중간 레이어에서 feature를 가져와, 실제 데이터와 생성된 데이터에서 얻은 feature의 평균과 공분산을 비교하는 식으로 구성
     - Random Generation 성능 평가시 사용, FID가 낮을수록 좋은 성능
-
 ### seamless  
 - 뛰어난 호환성, 부드러운 상호연결성
 - 소프트웨어분야에서 여러개의 프로그램이 마치 원래 하나였던 것처럼 깔끔한 인터페이스로 연결되어 있는 것을 뜻함
