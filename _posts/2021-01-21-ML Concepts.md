@@ -16,6 +16,12 @@ comments: true
 
 ### Inductive bias  
 ### GAN Evaluation Metric  
+- LPIPS: Learned Perceptual Image Patch Similarity
+    - 두 이미지의 perceptual distance를 계산하는 방식
+- FID: Fréchet Inception Distance
+    - 생성된 영상의 집합과 실제 생성하고자 하는 클래스 데이터 분포의 거리를 계산하는 방식
+    - Random Generation 성능을 측정하는 방식, FID가 낮을수록 기존 training dataset과 유사한 distribution을 생성
+
 ### seamless  
 - 뛰어난 호환성, 부드러운 상호연결성
 - 소프트웨어분야에서 여러개의 프로그램이 마치 원래 하나였던 것처럼 깔끔한 인터페이스로 연결되어 있는 것을 뜻함
