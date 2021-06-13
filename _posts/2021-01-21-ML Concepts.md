@@ -19,8 +19,9 @@ comments: true
 - LPIPS: Learned Perceptual Image Patch Similarity
     - 두 이미지의 perceptual distance를 계산하는 방식
 - FID: Fréchet Inception Distance
-    - 생성된 영상의 집합과 실제 생성하고자 하는 클래스 데이터 분포의 거리를 계산하는 방식
-    - Random Generation 성능을 측정하는 방식, FID가 낮을수록 기존 training dataset과 유사한 distribution을 생성
+    - 실제 training dataset의 distribution과 생성된 영상의 distribution의 거리를 계산하는 방식
+    - Inception network의 중간 레이어에서 feature를 가져와, 실제 데이터와 생성된 데이터에서 얻은 feature의 평균과 공분산을 비교하는 식으로 구성
+    - Random Generation 성능 평가시 사용, FID가 낮을수록 좋은 성능
 
 ### seamless  
 - 뛰어난 호환성, 부드러운 상호연결성
@@ -39,3 +40,4 @@ comments: true
 
 ### Reference
 **[1] [Global Average Pooling 이란](https://gaussian37.github.io/dl-concept-global_average_pooling/)**  
+**[2] [Inception Score & Frechet Inception Distance](https://cyc1am3n.github.io/2020/03/01/is_fid.html)**  
