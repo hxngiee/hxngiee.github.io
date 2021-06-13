@@ -3,6 +3,7 @@ layout: post
 title: ML Concepts
 subtitle: 기본 용어의 개념과 자주 사용하는 기법 정리
 tags: [ML, Pytorch]
+use_math: true
 comments: true
 ---
 
@@ -10,6 +11,7 @@ comments: true
 - [기본 용어의 개념](#기본-용어의-개념)
 - [자주 사용하는 기법](#자주-사용하는-기법)
 
+This formula $f(x) = x^2$ is an example.
 
 
 ## 기본 용어의 개념
