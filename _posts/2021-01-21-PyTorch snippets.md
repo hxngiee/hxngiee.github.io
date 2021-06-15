@@ -78,8 +78,15 @@ tensor([0.4847])
 ```
 
 ### Tensor 차원 변경
-- `torch.repeat()` 특정 텐서의 sizes 차원의 데이터를 반복. 1D Tensor의 경우, [n]이 아닌 [1,n]으로 간주한다.
+- `torch.permute()` transpose는 2개의 차원만 교환할 수 있는 반면, permute는 모든 차원을 교환할 수 있다.  
+```python
+x = torch.rand(16,32,3)
+y = x.transpose(0,2) #[3,32,16]
+z = x.permute(2,1,0) #[3,32,16]
+```
 
+
+- `torch.repeat()` 특정 텐서의 sizes 차원의 데이터를 반복. 1D Tensor의 경우, [n]이 아닌 [1,n]으로 간주한다.
 ```python
 >>> x = torch.tensor([1, 2, 3])     # 차원 [3] -> [1,3]
 >>> x.repeat(4, 2)
