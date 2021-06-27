@@ -13,6 +13,15 @@ comments: true
 
 ## 기본 용어의 개념
 
+### Discriminative vs Generative Model  
+$P(Y|X)$를 직접적으로 구하느냐 간접적으로 구하느냐에 따라 Discriminative model과 Generative model로 구분됨  
+- Discriminative Model  
+  - 데이터 X가 주어졌을 때 레이블 Y가 나타날 조건부 확률을 직접적으로 반환하는 모델
+  - 레이블 정보 Y를 필요로하기 때문에 지도학습에 해당하며 X의 레이블을 잘 구분하는 Decision Boundary를 학습하는 것을 목표로 함
+- Generative Mode  
+  - 데이터 X가 생성되는 과정을 두개의 확률모형 $P(Y)$와 $P(X|Y)$로 모델링하며 베이즈정리를 이용해 $P(Y|X)$를 간접적으로 도출
+  - $P(Y)$와 $P(X|Y)$의 확률분포를 학습하는 것이 목표이며 학습한 $P(X|Y)$를 활용해 X를 샘플링 할 수 있음
+  
 ### Inductive bias  
 - 학습자가 지금까지는 만나보지 않았던 상황에서 정확한 예측을 하기 위해 사용하는 추가적인 가정  
 
@@ -42,3 +51,4 @@ comments: true
 ### Reference
 **[1] [Global Average Pooling 이란](https://gaussian37.github.io/dl-concept-global_average_pooling/)**  
 **[2] [Inception Score & Frechet Inception Distance](https://cyc1am3n.github.io/2020/03/01/is_fid.html)**  
+**[3] [discriminative vs generative Model](https://ratsgo.github.io/generative%20model/2017/12/17/compare/)**  
