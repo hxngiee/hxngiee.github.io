@@ -6,6 +6,8 @@ thumbnail-img: /assets/img/styletransfer_1.jpg
 share-img: /assets/img/styletransfer_1.jpg
 tags: [Experiment]
 comments: true
+
+published : false
 ---
 
 ## Table of contents
