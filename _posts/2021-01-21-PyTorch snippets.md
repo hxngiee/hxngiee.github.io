@@ -98,6 +98,31 @@ tensor([[ 1,  2,  3,  1,  2,  3],
 torch.Size([4, 2, 3])
 ```
 
+### gather 특정 인덱스 추출
+- `torch.gather(input, dim, idx)` Matrix에서 특정 인덱스의 값만 뽑는 함수. Input Tensor와 indices의 차원이 같아야 한다.  
+```python
+x = torch.range(0,24).reshape(5,5)
+
+tensor([[ 0,  1,  2,  3,   4],
+        [ 5,  6,  7,  8,   9],
+        [ 10, 11, 12, 13, 14],
+        [ 15, 16, 17, 18, 19],
+        [ 20, 21, 22, 23, 24]]) 
+
+indices = [0,1,2,3,4]
+indices = torch.tensor(indices).unsqueeze(axis=-1)     # shape : [5, 1]
+
+torch.gather(x, dim=1, indices))
+
+tensor([[0],
+        [6],
+        [12],
+        [18],
+        [24]]) 
+
+```
+
+
 ## 자주사용하는 함수
 - `summary()` Pytorch 모델을 Summary해주는 Torch Summary Module.
 
@@ -122,5 +147,6 @@ foo(3)
 **[3] [nn.Embedding()](https://wikidocs.net/64779)**  
 **[4] [no_grad()와 eval()의 차이](https://coffeedjimmy.github.io/pytorch/2019/11/05/pytorch_nograd_vs_train_eval/)**  
 **[5] [Python argparse 사용법](https://greeksharifa.github.io/references/2019/02/12/argparse-usage/)**  
+**[6] [torch.gather()](https://data-newbie.tistory.com/709)**  
 
 
