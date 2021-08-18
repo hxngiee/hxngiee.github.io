@@ -148,5 +148,6 @@ foo(3)
 **[4] [no_grad()와 eval()의 차이](https://coffeedjimmy.github.io/pytorch/2019/11/05/pytorch_nograd_vs_train_eval/)**  
 **[5] [Python argparse 사용법](https://greeksharifa.github.io/references/2019/02/12/argparse-usage/)**  
 **[6] [torch.gather()](https://data-newbie.tistory.com/709)**  
+**[7] [Numpy 기초 정리](https://doorbw.tistory.com/171)**  
 
 
