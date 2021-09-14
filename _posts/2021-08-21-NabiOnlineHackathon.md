@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Nabi Online Hackathon] Hello, World! new playground - 작성중  
+title: Nabi Online Hackathon - Hello, World! new playground - 작성중  
 # subtitle: Utilizing the set structured side information  
 # thumbnail-img: /assets/img/pr_pono.png 
 tags: [Paper Review]
