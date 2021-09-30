@@ -9,7 +9,7 @@ comments: true
 ---
 {: .box-note}
 **진행기간:** 2021.03 ~ 진행 중  
-# **Team:** 김기홍, 김정윤  
+\\<!--**Team:** 김기홍, 김정윤-->
 **주요내용:** 사용자의 고유 창작물을 Stylize해주는 스케치 스타일링 Tool 개발  
 **기여한 점:** Sketch Stylization Model 제작, 기존 Unsupervised Image-to-Image Translation Baseline Model에 Positional Normalization 적용하여 모델 성능 향상, Style Mixing 기능을 적용하여 다채로운 Style 표현, Flask를 이용한 Pytorch 모델 배포  
 **사용한 Skill 또는 지식:** Pytorch, Flask, Unsupervised Image-to-Image Translation  
