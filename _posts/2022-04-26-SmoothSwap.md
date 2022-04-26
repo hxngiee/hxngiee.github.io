@@ -14,6 +14,7 @@ comments: true
 - [Abstract](#abstract)
 - [Introduction](#introduction)
 - [Problem Formulation](#problem-formulation)
+- [Challenges](#challenges)
 - [Method](#smooth-swap)
 - [Experiments](#experiments)
 - [Evaluation Details](#evaluation-details)  
@@ -40,14 +41,15 @@ comments: true
 - 본 연구에서는, 개선된 smoothness를 가진 새로운 embedding model을 제안하여 외부 component를 의존하지 않고 효과적으로 대처할 수 있는 face-swapping 방법론을 제안함
 
 **Contribution**  
-Simple architecture
-- simple U-Net based generator, which does not involve any handcrafted components as the existing models
+Simple architecture  
+simple U-Net based generator, which does not involve any handcrafted components as the existing models
 
-Simple loss function
-- using minimal loss(identity, pixel-level change, adv) function for face-swapping
+Simple loss function  
+using minimal loss(identity, pixel-level change, adv) function for face-swapping
 
-Fast training
-- smooth identity embedder allows faster training of the generator by providing more stable gradient information
+Fast training  
+smooth identity embedder allows faster training of the generator by providing more stable gradient information
+
 
 ## Problem Formulation
 C1. Swapped된 이미지는 Source image의 identity를 가지고있어야한다
@@ -61,7 +63,7 @@ C2. Swapped된 이미지는 target image의 expression, pose and background를 �
 - ($x_{swap}$과 $x_{tgt}$)간 loss를 걸어주며 ($x_{swap}$과 $x_{src}$)간 perceptual or pixel level loss를 걸어주어 Source의 특징을 반영하도록 함
 
 
-## Method
+## Challenges
 ### 3.1 Challenges for Changing Identity
 - 위와 같은 loss를 통해 Source 이미지와 Target 이미지의 절충된 합성 이미지를 얻을 수 있음
 - 사람을 identify하기 위해선 swapped face의 shape이 source shape에 맞게 적절히 바뀔 필요성이 있음
@@ -88,4 +90,111 @@ C2. Swapped된 이미지는 target image의 expression, pose and background를 �
 - smooth embedder의 경우 $x_{tgt}$의 identity를 변화시킬 때, 조금 더 smooth한 경로로 좋은 gradient direction을 제공
     - the ArcFace embedder보다 빠르고 안정적이게 학습을 돕는 것을 보임
 
-## Method: Smooth-Swap
+## Method
+### 4.1 Smooth Identity Embedder
+- ResNet50을 backbone으로 사용
+- smooth identity embedder를 학습하기 위해, `supervised contrastive learning loss` 를 활용
+
+- 사진
+
+- $x_i$: sample from the training dataset
+- $x_p^i$: positive samples(images having the same identity as $x_i$)
+- $x_n^i$: negative samples(having a different identity)
+
+### 4.2 Generator Architecture**
+- `NCSN++` (score-based generative modeling) 모델의 아키텍쳐 사용
+    - 기존 U-Net 구조에 noise를 conditional하게 넣어주는 구조
+        - time embedding vector를 identity embedding vector로 대체함
+    - noise를 identity vector로 대체하여 forward process동안 점진적으로 입혀냄
+
+### 4.3 Discriminator**
+- StyleGAN2
+
+### 4.4 Loss Functions**
+- we use three most basic loss functions
+
+- loss
+
+- $L_{chg}$: simpler pixel-level change loss instead of the feature-level loss
+    - D: stands for the number of dimensions of X(training data)
+
+## Experiments
+### 5.1 Datasets  
+- Identity embedder
+    - **VGGFace2 dataset**, which contains 3.3M identity-labeled images of 9k subjects.
+    - We crop and align VGGFace2 images using the same procedure as FFHQ.
+    
+- Generator
+    - **FFHQ dataset**, which contains 70k aligned face images.
+    - We use the 10% of images for testing.
+
+## Evaluation Details
+### 6.1 Quantitative Evaluations
+대부분 FaceSwap 모델의 경우 public code를 공개하지 않아 FaceForensic++(FF++) datasets에 생성된 이미지를 활용하여 Evaluation을 진행
+
+- Evaluate various metric
+
+- 사진
+
+- identity ($x_{swap}$→$x_{src}$)
+    - VGGFace2과 ArcFace embedder를 활용하여 $x_{swap}$과 $x_{src}$간 embedding distance와 cosine similarity 계산
+- shape ($x_{swap}$→$x_{src}$)
+    - 3D face model의 파라미터를 측정하여 L2 distance를 계산
+- expression ($x_{swap}$→$x_{tgt}$)
+    - 3D face model의 파라미터를 측정하여 L2 distance를 계산
+- pose ($x_{swap}$→$x_{tgt}$)
+    - 3D face model의 파라미터를 측정하여 L2 distance를 계산
+
+- Smooth-Swap의 경우 identity scores (VGG, Arc, and Shp)에서 높은 퍼포먼스를 기록한 반면 expression과 pose에서는 조금 떨어지는 수치를 보임
+    - λid를 떨어뜨리면 expression score가 오르긴 하였으나 identity를 유지하는게 중요하기 때문에 높게 고정시킴
+
+### 6.2 Basic Face-Swapping Performance  
+FaceForensics++ dataset에서 swap된 결과물을 획득하여 모델간 비교 진행
+
+- 사진
+
+- 다른 모델의 경우, 대부분 texture를 입혀내는 것에 한정된 반면, Smooth-Swap의 경우 face shape를 더욱 유연하게 변화시킴(2행: 둥글게, 5행: 얇게)
+- Skin thones, hair colors와 같은 identity attributes도 source에 가깝게 더 잘 matching 시킴
+
+### 6.3 Ablation Study on the Identity Embedder
+
+- Smooth Embedder가 Arc-Face에 비해 더 빠르고 안정적으로 학습됨
+- Fig.7의 왼쪽 그래프의 경우, Smooth Swap모델이 Arc-Face에 비해 더 낮은 값으로 빠르게 수렴
+    - Arc-Face의 경우, λid를 16으로 키웠을 때 identity loss가 낮아졌으나 change loss에서 급격하게 향상됨
+
+### 6.4 Identity Embedding Performance
+- Identity embedder와 다른 baseline embedder간의 성능 비교
+- embedding space가 smooth할수록 $d_{smooth}$ 값은 작아짐
+
+- 수식
+
+- $x_a$, $x_b$: ffhq from testset / $x_c$: ffhq from trainset (학습 sample이 많기 때문에 trainset이용)    
+    $z_C = f_{emb}(x_C)$ 
+    $x_C = argmin_{x \in train} \parallel Slerp-f_{emb}(x) \parallel$
+    
+- smooth swap의 경우, identity 정보를 최대화 시키는 방향으로 학습을 하기 때문에 embedding space가 조금 더 continuous하게 형성됨 → 다채로운 identity 표현이 가능
+    
+- 반면 non-smooth의 경우, interpolation시 이미지가 잘 변화하지 않아 $z_C$와 가까운 이미지를 만드는데 있어 더 어려움이 있음
+    
+- 따라서 smooth의 경우 분자를 더 작게 좁힐 수 있는 가능성을 더 많이 내포하고 있음
+
+- Smooth-Swap의 경우, ArcFace와 VGGFace2에 비해 더 높은 smoothness를 보임
+
+
+
+- Fig. 9. Sample $x_a$와 $x_b$를 interpolating 했을 때 결과 이미지(r ∈ [0.1, · · · , 0.9])
+- VGG-Face2와 ArcFace의 경우, 동일한 identity가 반복적으로 나타나지만 smooth-swap의 경우, interpolation함에 따라 결과이미지가 천천히 변화
+- interpolation시 새롭게 나타난 이미지 수를 카운팅하여 score를 측정
+    - Smooth-Swap:  5.13±1.18 / VGGFace2: 4.42±1.41 / ArcFAce: 4.25±1.33
+
+## Conclusion
+- 많은 기존 모델의 경우 여러가지 외부 component를 handling 해야하는 이슈가 있었음
+- smooth swap은 smooth identity embedder를 통해 간단한 generator와 loss만으로이 학습가능함을 보임
+- identity metrics에서 우수한 성능을 보이는 smooth swap을 통해, 모델이 더 안정적이고 빠르게 학습하도록 기여
+- face shape에서 유연한 변화를 보였으나 target이미지의 pose와 expression 유지가 떨어지는 문제가 있었음
+
+
+## 개선할 부분
+- FaceSwap 계열에서 Shape deformation이 source identity를 확인하는데 중요한 요소라면 AdaLIN(Adaptive Layer-Instance Normalization)의 도입이 효과적일 것을 기대
+- 1d identity vector를 AdaIN으로 바로 넘겨주는 것이 아닌 2d identity Map으로 projection시켜 합성시키는 방안
+    - StyleMapGAN 아이디어: spatial한 정보를 고려한 identity map의 경우 보다 정확한 최적화 연산과 지역별 합성이 가능
