@@ -41,6 +41,9 @@ comments: true
 - 본 연구에서는, 개선된 smoothness를 가진 새로운 embedding model을 제안하여 외부 component를 의존하지 않고 효과적으로 대처할 수 있는 face-swapping 방법론을 제안함
 
 **Contribution**  
+<center>
+<img src="/assets/img/smooth-1.png" alt="Component model visualisation">
+</center>  
 Simple architecture  
 simple U-Net based generator, which does not involve any handcrafted components as the existing models
 
@@ -73,6 +76,9 @@ C2. Swapped된 이미지는 target image의 expression, pose and background를 �
 
 
 ### 3.2 Importance of A Smooth Identity Embedder (vs ArcFace)
+<center>
+<img src="/assets/img/smooth-2.png" alt="Component model visualisation">
+</center>  
 - 대부분의 face swapping 모델들은 Arc-Face를 identity embedder로 활용하고 있음
     - 얼굴 이미지의 identitiy 유사도를 측정해주는 매트릭
 
@@ -91,11 +97,16 @@ C2. Swapped된 이미지는 target image의 expression, pose and background를 �
     - the ArcFace embedder보다 빠르고 안정적이게 학습을 돕는 것을 보임
 
 ## Method
+<center>
+<img src="/assets/img/smooth-3.png" alt="Component model visualisation">
+</center>  
 ### 4.1 Smooth Identity Embedder
 - ResNet50을 backbone으로 사용
 - smooth identity embedder를 학습하기 위해, `supervised contrastive learning loss` 를 활용
 
-- 사진
+<center>
+<img src="/assets/img/smooth-4.png" alt="Component model visualisation">
+</center>  
 
 - $x_i$: sample from the training dataset
 - $x_p^i$: positive samples(images having the same identity as $x_i$)
@@ -113,7 +124,9 @@ C2. Swapped된 이미지는 target image의 expression, pose and background를 �
 ### 4.4 Loss Functions**
 - we use three most basic loss functions
 
-- loss
+<center>
+<img src="/assets/img/smooth-5.png" alt="Component model visualisation">
+</center>  
 
 - $L_{chg}$: simpler pixel-level change loss instead of the feature-level loss
     - D: stands for the number of dimensions of X(training data)
@@ -134,7 +147,9 @@ C2. Swapped된 이미지는 target image의 expression, pose and background를 �
 
 - Evaluate various metric
 
-- 사진
+<center>
+<img src="/assets/img/smooth-6.png" alt="Component model visualisation">
+</center>  
 
 - identity ($x_{swap}$→$x_{src}$)
     - VGGFace2과 ArcFace embedder를 활용하여 $x_{swap}$과 $x_{src}$간 embedding distance와 cosine similarity 계산
@@ -151,13 +166,20 @@ C2. Swapped된 이미지는 target image의 expression, pose and background를 �
 ### 6.2 Basic Face-Swapping Performance  
 FaceForensics++ dataset에서 swap된 결과물을 획득하여 모델간 비교 진행
 
-- 사진
+<center>
+<img src="/assets/img/smooth-7.png" alt="Component model visualisation">
+</center>  
 
 - 다른 모델의 경우, 대부분 texture를 입혀내는 것에 한정된 반면, Smooth-Swap의 경우 face shape를 더욱 유연하게 변화시킴(2행: 둥글게, 5행: 얇게)
 - Skin thones, hair colors와 같은 identity attributes도 source에 가깝게 더 잘 matching 시킴
 
 ### 6.3 Ablation Study on the Identity Embedder
-
+<center>
+<img src="/assets/img/smooth-8.png" alt="Component model visualisation">
+</center>  
+<center>
+<img src="/assets/img/smooth-9.png" alt="Component model visualisation">
+</center>  
 - Smooth Embedder가 Arc-Face에 비해 더 빠르고 안정적으로 학습됨
 - Fig.7의 왼쪽 그래프의 경우, Smooth Swap모델이 Arc-Face에 비해 더 낮은 값으로 빠르게 수렴
     - Arc-Face의 경우, λid를 16으로 키웠을 때 identity loss가 낮아졌으나 change loss에서 급격하게 향상됨
@@ -180,7 +202,9 @@ FaceForensics++ dataset에서 swap된 결과물을 획득하여 모델간 비교
 
 - Smooth-Swap의 경우, ArcFace와 VGGFace2에 비해 더 높은 smoothness를 보임
 
-
+<center>
+<img src="/assets/img/smooth-10.png" alt="Component model visualisation">
+</center>  
 
 - Fig. 9. Sample $x_a$와 $x_b$를 interpolating 했을 때 결과 이미지(r ∈ [0.1, · · · , 0.9])
 - VGG-Face2와 ArcFace의 경우, 동일한 identity가 반복적으로 나타나지만 smooth-swap의 경우, interpolation함에 따라 결과이미지가 천천히 변화
