@@ -112,7 +112,7 @@ C2. Swapped된 이미지는 target image의 expression, pose and background를 �
 - $x_p^i$: positive samples(images having the same identity as $x_i$)
 - $x_n^i$: negative samples(having a different identity)
 
-### 4.2 Generator Architecture**
+### 4.2 Generator Architecture
 - `NCSN++` (score-based generative modeling) 모델의 아키텍쳐 사용
     - 기존 U-Net 구조에 noise를 conditional하게 넣어주는 구조
         - time embedding vector를 identity embedding vector로 대체함
