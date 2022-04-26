@@ -2,7 +2,7 @@
 layout: post
 title: Smooth Swap - A Simple Enhancement for Face-Swapping with Smoothness
 subtitle: Focuses on deriving the smoothness of the identity embedding 
-thumbnail-img: /assets/img/instagan_overview.jpg 
+thumbnail-img: /assets/img/smooth-2.png 
 tags: [Paper Review]
 use_math: true
 comments: true
