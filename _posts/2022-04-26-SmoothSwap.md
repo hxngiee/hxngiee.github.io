@@ -44,13 +44,13 @@ comments: true
 <center>
 <img src="/assets/img/smooth-1.png" alt="Component model visualisation">
 </center>  
-Simple architecture  
+**Simple architecture**  
 simple U-Net based generator, which does not involve any handcrafted components as the existing models
 
-Simple loss function  
+**Simple loss function**  
 using minimal loss(identity, pixel-level change, adv) function for face-swapping
 
-Fast training  
+**Fast training**  
 smooth identity embedder allows faster training of the generator by providing more stable gradient information
 
 
