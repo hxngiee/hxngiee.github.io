@@ -15,7 +15,7 @@ comments: true
 - [Introduction](#introduction)
 - [Problem Formulation](#problem-formulation)
 - [Challenges](#challenges)
-- [Method](#smooth-swap)
+- [Method](#method)
 - [Experiments](#experiments)
 - [Evaluation Details](#evaluation-details)  
 - [Conclusion](#conclusion)  
@@ -118,10 +118,10 @@ C2. Swapped된 이미지는 target image의 expression, pose and background를 �
         - time embedding vector를 identity embedding vector로 대체함
     - noise를 identity vector로 대체하여 forward process동안 점진적으로 입혀냄
 
-### 4.3 Discriminator**
+### 4.3 Discriminator
 - StyleGAN2
 
-### 4.4 Loss Functions**
+### 4.4 Loss Functions
 - we use three most basic loss functions
 
 <center>
