@@ -7,7 +7,7 @@ subtitle: 몰입을 즐기는 AI Research Engineer, 김기홍입니다
 ### 🙋‍♂️ Introduction
 - 안녕하세요! **3년차 AI Research Engineer** 김기홍입니다  
 - 학부시절 컴퓨터를 매개로 사람과 소통하는 직업에 매료되어 전공을 영문학에서 컴퓨터 공학으로 바꾸었습니다
-- 기술로 작품을 만드는 일에 몰두하다가, 지금은 AI연구에 푹 빠져 있습니다  
+- 기술로 작품을 만드는 일에 몰두하다가, 지금은 AI Research에 푹 빠져 있습니다  
 - **Generative Models**(Diffusion Models, GANs)로 실용적인 **Craetion Tool**을 만드는데 관심이 있습니다 
 - 이기주, 박웅현 작가, 컴퓨터 예술가 Leo Villareal, 사진을 좋아합니다  
 
