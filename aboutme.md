@@ -27,7 +27,7 @@ subtitle: 몰입을 즐기는 AI Research Engineer, 김기홍입니다
 ### ✍ Publications  
 - Preprints
   - **DiffFace: Diffusion-based Face Swapping with Facial Guidance**
-    - Kihong Kim*, Yunho Kim*, Seokju Cho, Junyoung Seo, Jisu Nam, Kychul Lee, Seungryong Kim, KwangHee Lee
+    - **Kihong Kim**, Yunho Kim*, Seokju Cho, Junyoung Seo, Jisu Nam, Kychul Lee, Seungryong Kim, KwangHee Lee
     - ArXiv Preprint, 2022.
     - [[Project Page]](https://hxngiee.github.io/DiffFace/) [[ArXiv]](https://arxiv.org/abs/2212.13344)
 
