@@ -11,9 +11,13 @@ subtitle: 몰입을 즐기는 AI Research Engineer, 김기홍입니다
 - **Generative Models**(Diffusion Models, GANs)로 실용적인 **Craetion Tool**을 만드는데 관심이 있습니다 
 - 이기주, 박웅현 작가, 컴퓨터 예술가 Leo Villareal, 사진을 좋아합니다  
 
+### 💻 Work Experience
+- AI Researcher. in **VIVE STUDIOS**, Seoul, Korea (2022 ~ Present)
+  - Research on Face Swapping algorithm transferring the identity from a source image to a target image
+
 
 ### 🎓 Education  
-- M.S. in **Gwangju Institute of Science and Technology**, Gwangju, Korea (2020 ~ Present)
+- M.S. in **Gwangju Institute of Science and Technology**, Gwangju, Korea (2020 ~ 2022)
   - Cognition & Intelligence Lab
 - B.S. in **Sejong University**, Seoul, Korea (2014 ~ 2020)
   - Major in **Computer Engineering**
@@ -22,10 +26,10 @@ subtitle: 몰입을 즐기는 AI Research Engineer, 김기홍입니다
 
 ### ✍ Publications  
 - Preprints
-  - **DiffFace: Diffusion-based Face Swapping with Facial Guidance** [[Project Page]](https://hxngiee.github.io/DiffFace/) [[ArXiv]](https://arxiv.org/abs/2212.13344)
+  - **DiffFace: Diffusion-based Face Swapping with Facial Guidance**
     - Kihong Kim*, Yunho Kim*, Seokju Cho, Junyoung Seo, Jisu Nam, Kychul Lee, Seungryong Kim, KwangHee Lee
     - ArXiv Preprint, 2022.
-
+    - [[Project Page]](https://hxngiee.github.io/DiffFace/) [[ArXiv]](https://arxiv.org/abs/2212.13344)
 
 ### 📌Projects
 - **Dream AI Smart Device Hackathon LG Challenge (GIST AI, LG)**  
