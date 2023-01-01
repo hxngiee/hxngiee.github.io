@@ -1,15 +1,14 @@
 ---
 layout: page
 title: KIHONG KIM
-subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
+subtitle: 몰입을 즐기는 AI Research Engineer, 김기홍입니다
 ---
 
 ### 🙋‍♂️ Introduction
-- 안녕하세요! **2년차 AI Engineer** 김기홍입니다  
+- 안녕하세요! **3년차 AI Research Engineer** 김기홍입니다  
 - 학부시절 컴퓨터를 매개로 사람과 소통하는 직업에 매료되어 전공을 영문학에서 컴퓨터 공학으로 바꾸었습니다
-- 기술로 작품을 만드는 일에 몰두하다가, 지금은 AI Engineering에 푹 빠져 있습니다  
-- 엔지니어로서 꾸준함의 중요성을 알기에 1일 1커밋 운동과 기술 블로그를 운영하고 있습니다  
-- **Paper Reproducing**과 **MLOps**에 대한 고민을 생활화합니다  
+- 기술로 작품을 만드는 일에 몰두하다가, 지금은 AI연구에 푹 빠져 있습니다  
+- **Generative Models**(Diffusion Models, GANs)로 실용적인 **Craetion Tool**을 만드는데 관심이 있습니다 
 - 이기주, 박웅현 작가, 컴퓨터 예술가 Leo Villareal, 사진을 좋아합니다  
 
 
@@ -21,10 +20,11 @@ subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
   - Major in **Entertainment Software**
 
 
-### ✍ Research Interests  
-- Machine Learning
-  - Generative Model: Image Generation / Image-to-Imgae translation
-  - Neural Style Transfer
+### ✍ Publications  
+- Preprints
+  - **DiffFace: Diffusion-based Face Swapping with Facial Guidance** [[Project Page]](https://hxngiee.github.io/DiffFace/) [[ArXiv]](https://arxiv.org/abs/2212.13344)
+    - Kihong Kim*, Yunho Kim*, Seokju Cho, Junyoung Seo, Jisu Nam, Kychul Lee, Seungryong Kim, KwangHee Lee
+    - ArXiv Preprint, 2022.
 
 
 ### 📌Projects
@@ -62,13 +62,6 @@ subtitle: 몰입을 즐기는 엔지니어, 김기홍입니다
   - 본인이 기여한 점 : 이미지 애니메이션 효과 적용, Depth에 따른 시각화 유무 판단, OSC 통신 프로토콜을 이용한 관람객 위치 좌표 전송  
   - 사용한 Skill 또는 지식 : Processing, Kinect v2  
   - 결과/성과 : 세종대 2018 Art&Technology Contest 장려상, HCI KOREA 2019 Creative Award 출품, 타 전공(회화)학생과의 협업 경험  
-
-
-### 💻 Paper Reproducing
-  - **PGGAN**: Progressive Growing of GANs For Imporved Quality, Stability and Variation
-  - **StarGAN**: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation 
-  - **MUNIT**: Multimodal Unsupervised Image-to-Image Translation
-
 
 ### 📄 Skills
 - Programming Language
