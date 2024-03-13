@@ -5,12 +5,13 @@ title: KIHONG KIM
 [//]: # (subtitle: 몰입을 즐기는 AI Research Engineer, 김기홍입니다)
 
 ### 🙋‍♂️ Introduction
-- Hello! I am a AI Research Engineer working at CVLAB with Prof. Seungryong Kim. My research focuses on Generative AI that can produce various types of content (Image / Video / 3D) and its applications. 
+- Hello! I am an AI Research Engineer working at Narnialabs with Prof. Namwoo Kang. Before joining the company, I was a research member at CVLAB with Prof. Seungryong Kim and VIVE STUDIOS. My research focuses on Generative AI that can produce various types of content (Image / Video / 3D) and its applications. Recently, my research focus has been intensely drawn to the manufacturing generative AI especially in generating Computer-Aided Designs (CAD) and automated sequence planning for assembly.
 
 
 
 ### 💻 Work Experience
-- AI Researcher at Korea University  (2023 ~ Present)
+- AI Researcher at Narnialabs (2024 ~ Present)
+- AI Researcher at Korea University  (2023 ~ 2024)
 - AI Research Engineer at VIVE STUDIOS (2022 ~ 2023)
 
 ### 🎓 Education  
